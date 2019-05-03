@@ -18,7 +18,7 @@
 
 ## Why should we only (well mostly) use 3x3 Kernels?
 
-3x3 kernels are mostly used because of equal division between left and right parts of the image. We could use 5x5, 7x7, etc but for **computational benefits**, 3x3 is preferred to the other odd sized kernels. 3x3 also leads to **less number of parameters** when compared to other odd sized kernels. Using 7x7 kernel once is equivalent to using 3x3 kernel 3 times (same receptive field of 7.) However, while using 7x7 kernel, the number of parameters are (7*7) = 49. But on using 3x3 kernel 3 times, the number of parameters are 3 * (3*3) = 27.
+3x3 kernels are mostly used because of equal division between left and right parts of the image. We could use 5x5, 7x7, etc but for **computational benefits**, 3x3 is preferred to the other odd sized kernels. 3x3 also leads to **less number of parameters** when compared to other odd sized kernels. Using 7x7 kernel once is equivalent to using 3x3 kernel 3 times (same receptive field of 7.) However, while using 7x7 kernel, the number of parameters are (7\*7) = 49. But on using 3x3 kernel 3 times, the number of parameters are 3 * (3\*3) = 27.
 
 ​	
 
