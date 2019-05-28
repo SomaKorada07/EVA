@@ -1,0 +1,4 @@
+*   Performed Image Normalization on both training and validation data.
+*   Added L2 regularization to the loss function.
+*   Already assignment 4 code had relu after BN.
+*   Identified the top 25 misclassified images from validation data set and created an image gallery from them.
