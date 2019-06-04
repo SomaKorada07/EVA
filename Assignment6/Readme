@@ -1,0 +1,2 @@
+6A - Changing existing architecture to get better base accuracy within 100 epochs.
+6B - Introducing new types of convolutions - Separable Convolution, Depthwise Convolution, Grouped Convolution with 3x3 and 5x5, Grouped Convolution with 3X3 dilation = 1 and dilation = 2.
