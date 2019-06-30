@@ -1,0 +1,2 @@
+Integrating GradCAM with Assignment 6A to see the activation areas in 4 images.
+Adding cutout augmentation technique and running GradCAM again to see the new activation areas in the same 4 images.
