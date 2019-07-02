@@ -1,0 +1,3 @@
+GradCAM using pretrained VGG weights on a random image.
+Identifying sunglasses of IronMan using GradCAM.
+Receptive Field calculation.
