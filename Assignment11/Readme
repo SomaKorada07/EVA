@@ -1,0 +1,10 @@
+Pick this code - https://canvas.instructure.com/courses/1587436/assignments/11673364
+Add CutOut to this
+Use LR Finder to find the best starting learning rate
+Use SDG with Momentum
+Train for 100 Epochs
+Keep Verbose = 0 (no logs)
+Print the top accuracy
+Show Training and Test Accuracy curves
+Run GradCAM on any 25 misclassified images. Make sure you mention what is the prediction and what was the ground truth label.
+Submit
