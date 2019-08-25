@@ -1,0 +1,4 @@
+you NEED to run the code on GCP or any other cloud (other than Colab). 
+any machine with V100 will also work 
+you NEED to hit 94% accuracy, target is 100 seconds
+if you have not done 12, 13, you can submit this assignment for those. 
