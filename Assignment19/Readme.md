@@ -1,26 +1,26 @@
 # SCREENSHOTS OF ANNOTATIONS
 
-![](D:\EVA\Assignment19\Capture1.JPG)
+![](https://raw.githubusercontent.com/SomaKorada07/EVA/master/Assignment19/Capture1.JPG?token=ALQWLRJ3VXM4TFHEVUEBXXC5STA66)
 
 
 
-![](D:\EVA\Assignment19\Capture2.JPG)
+![](https://raw.githubusercontent.com/SomaKorada07/EVA/master/Assignment19/Capture2.JPG?token=ALQWLRPAW3TA2SDBB7GQLBK5STBDY)
 
 
 
-![](D:\EVA\Assignment19\Capture3.JPG)
+![](https://raw.githubusercontent.com/SomaKorada07/EVA/master/Assignment19/Capture3.JPG?token=ALQWLRLPVGPILNPFJRCPKDK5STBEK)
 
 
 
-![](D:\EVA\Assignment19\Capture4.JPG)
+![](https://raw.githubusercontent.com/SomaKorada07/EVA/master/Assignment19/Capture4.JPG?token=ALQWLRIFEN7RPHFAYCT33R25STBEQ)
 
 
 
-![](D:\EVA\Assignment19\Capture5.JPG)
+![](https://raw.githubusercontent.com/SomaKorada07/EVA/master/Assignment19/Capture5.JPG?token=ALQWLRO3U6DDQKUENPBBZ325STBEW)
 
 
 
-![](D:\EVA\Assignment19\Capture6.JPG)
+![](https://raw.githubusercontent.com/SomaKorada07/EVA/master/Assignment19/Capture6.JPG?token=ALQWLRO24VTIILS2HH3ZD7K5STBE2)
 
 
 
