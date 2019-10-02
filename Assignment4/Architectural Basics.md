@@ -1,0 +1,40 @@
+# ARCHITECTURAL BASICS
+
+Following concepts are considered in the same order while creating a network:
+
+## PREPROCESSING
+
+1. **Image Normalization** - Normalizing the training and test images by dividing all the pixel values by 255 so that we get pixel values between 0 and 1.
+
+## CREATING A NETWORK
+
+1. **Kernels and how do we decide the number of kernels?** - We usually use 3x3 kernels for convolution while increasing the channels and 1x1 kernels while reducing the channels. Number of kernels depends mostly on the image size. As MNIST image is of 28x28 size, we would usually go with less number of kernels (<16 or <32).
+2. **3x3 Convolutions** - 3x3 kernels when used for convolution reduce the input size by 2x2 (X and Y axes) when we consider no padding and stride of 1. Also, they increase the Receptive Field by 2x2.
+3. **1x1 Convolutions** - 1X1 kernels are usually used to reduce the number of channels. One reason being the computational cost involved is much less as there is very minimal computation required. Also, 1x1 kernels can combine different kinds of information unlike 3x3 kernels which can combine only information along a fixed depth.
+4. **MaxPooling** - MaxPooling is usually done using 2x2 kernels. MaxPooling gives the maximum pixel value from the 4 pixel values it is convolved on. As a result, it helps in rotational invariance and translational invariance. When MaxPooling is performed, the input image (channel size) is halved (both by X and Y axes) and the Receptive Field is doubled.
+5. **Position of MaxPooling** - As we lose a lot of information (50%), MaxPooling should be performed not very beginning of the network and also not very close to the last layer.
+6. **The distance of MaxPooling from Prediction** - MaxPooling should be performed not very close to prediction. It should be at least 2-3 layers away from the prediction layer.
+7. **Concept of Transition Layers** - Transition layer usually consists of a 1x1 kernel to reduce the number of channels and a MaxPooling layer to reduce the size of channels.
+8. **Position of Transition Layer** - Transition layer should neither be too close to initial input image nor too close to the prediction layer.
+9. **Receptive Field** - There are 2 types of Receptive Fields - Local Receptive Field and Global Receptive Field. Local Receptive Field is the size of the previous layer which is "seen" from the current layer which will be equal to the size of the kernel used for convolution. Global Receptive Field is the size of the input image which is "seen" from the current layer. Global Receptive Field increases as we keep convolving (3x3 kernel increases the GRF by 2x2 for each layer). For images where size of the object is equal to size of the image, our network's last layer should reach the GRF of the size of the image.
+10. **How many layers** - Number of layers for convolution depends on the Receptive Field. For images where size of the object is equal to size of the image, our network's last layer should reach the GRF of the size of the image.
+11. **When do we stop convolutions and go ahead with a larger kernel or some other alternative (which we have not yet covered)** - We usually stop the convolutions when we have reached the required Receptive Field. Instead of using a larger kernel to convolve to get 1x1, we can use other alternatives like Global Average Pooling.
+12. **SoftMax** - SoftMax is probability like. For all the available classes, SoftMax gives a value to each class such that it all sums up to 100%. It bloats up the higher values or diminishes the lower values making it very distinct to identify the predictions. However, it needs to very carefully considered based on the use case if we need to use SoftMax or not. For medical domain use cases, we may not want to use SoftMax. SoftMax is not an activation function.
+
+## VALIDATION OF NETWORK
+
+1. **When to add validation checks** - We should always add the validation accuracy print as the last epoch need not be necessarily the epoch with best weights! 
+2. **Number of Epochs and when to increase them** - Epoch is a pass when all the images in the dataset are trained on. Increasing the number of epochs will help in determining the capacity of the network as it would eventually reach a global minima.
+3. **Batch Size, and effects of batch size** - Batch size defines the number of images to be considered for one backward pass during which the backpropagation kicks in for correcting the weights. Higher the batch size, the faster would be the training as more images would be used for each pass. Batch size should ideally be greater than the number of classes so that at least image(s) of all the classes can be considered for every pass. Every dataset would have an ideal/optimal batch size which can be determined by running some program. For MNIST dataset, 128 is an ideal batch size.
+4. **How do we know our network is not doing well, comparatively, very early** - The validation accuracy in the first few epochs will give an estimate on how well the network can perform.
+5. **Adam vs SGD** - SGD was not converging well when compared to Adam.
+
+## ENHANCING THE NETWORK
+
+1. **When do we introduce DropOut, or when do we know we have some overfitting** - Dropouts are used to reduce the gap between training accuracy and validation accuracy.
+2. **DropOut** - Lower values of dropouts are usually preferred. Dropouts shut off the kernels while training, however they do not have any effect during validation. Hence, while using dropouts, it could happen that validation accuracy is greater than training accuracy.
+3. **Batch Normalization** - Batch Normalization is usually used before convolution layer. It adds 40 parameters. Batch normalization normalizes the channel values.
+4. **The distance of Batch Normalization from Prediction** - Batch Normalization should not be used close to prediction similar to 'relu' activation as it would not help in passing forward all the required information.
+5. **Learning Rate** - Learning rate is the rate at which the images are learnt by the model. Too low learning rate is not good as the learning would take a long time, also too high learning rate is not good. An optimal learning rate needs to be used to get good accuracies. Every optimizer comes with a default LR, default LR for 'adam' optimizer is 0.001.
+6. **LR schedule and concept behind it** - LR Scheduler helps in altering the LR based on epoch. We can define a function to change LR for every epoch or set of epochs. LR Scheduler can be added as callbacks to the fit method.
+
