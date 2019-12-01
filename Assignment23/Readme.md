@@ -11,3 +11,7 @@ Implement the following:
 - If the original video was 400x400 resolution, final video is 1200x400. Final video is 5 seconds and we need to see all 3 videos side by side for comparison. 
 - Upload to youtube, and embed the video in your readme file. 
 - Share the link. 
+
+
+
+**Youtube link** - https://youtu.be/rUYTQbOpPaQ
