@@ -1,0 +1,41 @@
+__init__
+
+We basically use this method to initialize the attributes of a class and this method gets called when an object is created from the class.
+1. We have defined attribute grid, which is the blocks.
+2. We are setting livingReward = 0.0 and it means, agent wont get continous rewards for moving between the states.
+3. We are setting noise = 0.2 which is the default value, it is the stochasticity, and it means how often action results in unintended direction.
+
+getQValue
+
+It is the value we are interested.
+When you give a state and the possible actions, it will return you a qvalue considering the below parameters.
+1. Reward it will get and the qvalue it will see, when it takes particular action.
+2. It is policy in nature and so it is non-deterministic and so it is stochastic in nature and so it considers the probability.
+Finally returns the best qvalue taking the best action, also it tells the direction for it.
+
+computeValueFromQValue
+
+This method gets all possible actions, sends those details to getQValue, RETURNS YOU THE BEST Q VALUE
+So its telling what best action you can take to get into the best state and it RETURNS YOU THE BEST Q VALUE, its based on the policy, means it will understand the stochastic nature of the environment, and calculates the q value based on the probability.
+If it has never seen a state, it returns zero.
+
+computeActionFromQValues
+
+This method gets all possible actions, sends those details to getQValue, RETURNS YOU THE BEST ACTION.
+So its telling what best action you can take to get into the best state and it RETURNS YOU THE BEST ACTION, its based on the policy, means it will understand the stochastic nature of the environment, and calculates the q value based on the probability.
+If it has never seen a state, it returns zero.
+
+getAction
+
+This method gets all legal actions which user defined, and we are using flipcoin which randomly picks an action, and we are sending it to the computeActionFromQValues to get the respective q value.
+
+update
+
+This method is for updating the weights which we will normally do in any machine learning.
+It does calculates the next set of q values and multiplies with learning rate and we calls it as discount factor.
+Then it subtracts with the current set of q values and gives the result after adding the reward.
+
+
+
+
+
