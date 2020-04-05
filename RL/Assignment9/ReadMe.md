@@ -1,4 +1,4 @@
-# T3D (TWIN DELAYED DDPG)
+# TD3 (TWIN DELAYED DDPG)
 
 # Step 1: class ReplayBuffer
 
@@ -40,7 +40,7 @@ Critic class takes max action predicted by the actors and new state as the input
 
 # Step 4 and 5:
 
-T3D Class : Initialize actor and target models and targets. Initialize both actor to same weights and all critics to same weight
+TD3 Class : Initialize actor and target models and targets. Initialize both actor to same weights and all critics to same weight
 
 Step4 Sample a batch of transitions according to batch size from replay buffer. All the transitions are taken by the actor model
 
