@@ -1,3 +1,5 @@
+Video link - https://www.youtube.com/watch?v=bA3Tee3AzK4
+
 # TD3 Implementation on Custom Environment
 
 ## Goal
