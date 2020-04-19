@@ -1,4 +1,7 @@
-Video link - https://www.youtube.com/watch?v=bA3Tee3AzK4
+Video link - https://youtu.be/oiEu5gNkebQ
+
+https://www.youtube.com/watch?v=bA3Tee3AzK4 (Camtasia with watermark)
+
 
 # TD3 Implementation on Custom Environment
 
