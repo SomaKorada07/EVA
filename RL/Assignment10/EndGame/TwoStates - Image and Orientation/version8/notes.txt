@@ -1,0 +1,3 @@
+TD3_0_3023_68_actor.pth - overall best weight. works same as version 8
+
+TD3_0_1470_136_actor.pth - latest best weights. not yet on roads 100%. almost same as best weights.

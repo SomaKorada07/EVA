@@ -1,0 +1,3 @@
+TD3_0_1516_213_actor.pth - going all over the map not on roads too
+
+TD3_0_1394_144_actor.pth - going all over the map not on roads too

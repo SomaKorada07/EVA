@@ -1,0 +1,3 @@
+TD3_0_3662_111_actor.pth - going from A to B but not on roads
+
+TD3_0_2512_139_actor.pth - going from A to B but not on roads but better than best weights

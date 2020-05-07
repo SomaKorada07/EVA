@@ -1,0 +1,7 @@
+TD3_0_3179_285_actor.pth - sticks to the boundary
+
+TD3_0_2325_347_actor.pth - traverses between targets but not on roads
+
+TD3_0_2324_319_actor.pth - sticks to the boundary
+
+TD3_0_1858_286_actor.pth - sticks to the boundary

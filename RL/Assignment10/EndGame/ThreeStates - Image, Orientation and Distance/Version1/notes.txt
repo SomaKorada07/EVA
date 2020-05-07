@@ -1,0 +1,3 @@
+TD3_0_9_460_actor.pth - not reaching targets and also not going on roads
+
+TD3_0_1_206_actor.pth - not reaching targets and also not going on roads

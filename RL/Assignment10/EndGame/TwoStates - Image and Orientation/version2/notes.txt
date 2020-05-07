@@ -1,0 +1,5 @@
+TD3_0_5577_574_actor - best model in terms of rewards and perfectly goes from A to B and vice versa but not on roads
+
+TD3_0_1846_740_actor - better than above model. Slightly going on roads.
+
+TD3_0_692_766_actor - last saved model. Not on roads but traverses between targets.

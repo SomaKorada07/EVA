@@ -1,0 +1,464 @@
+Total Steps:  750 Episode:  1 Reward:  177.99999999999372 Episode TimeSteps:  750 Sand Penalty:  357.0 Distance Penalty:  500 Boundary Penalty:  0 Goal Reward:  0 Goal Penalty:  75.00000000000001
+Total Steps:  1348 Episode:  2 Reward:  303.199999999997 Episode TimeSteps:  598 Sand Penalty:  624.0 Distance Penalty:  500 Boundary Penalty:  10 Goal Reward:  0 Goal Penalty:  134.79999999999663
+Total Steps:  2098 Episode:  3 Reward:  347.4999999999927 Episode TimeSteps:  750 Sand Penalty:  961.5 Distance Penalty:  520 Boundary Penalty:  10 Goal Reward:  0 Goal Penalty:  209.79999999999237
+Total Steps:  2848 Episode:  4 Reward:  -6.499999999997394 Episode TimeSteps:  750 Sand Penalty:  1323.0 Distance Penalty:  840 Boundary Penalty:  10 Goal Reward:  0 Goal Penalty:  284.79999999999626
+Total Steps:  3598 Episode:  5 Reward:  257.9999999999921 Episode TimeSteps:  750 Sand Penalty:  1680.0 Distance Penalty:  1500 Boundary Penalty:  10 Goal Reward:  0 Goal Penalty:  359.8000000000133
+Total Steps:  4348 Episode:  6 Reward:  -19.999999999997666 Episode TimeSteps:  750 Sand Penalty:  2035.0 Distance Penalty:  1520 Boundary Penalty:  10 Goal Reward:  0 Goal Penalty:  434.80000000003037
+Total Steps:  4630 Episode:  7 Reward:  72.80000000000155 Episode TimeSteps:  282 Sand Penalty:  2164.0 Distance Penalty:  1520 Boundary Penalty:  20 Goal Reward:  0 Goal Penalty:  463.0000000000368
+Total Steps:  5320 Episode:  8 Reward:  27.500000000001698 Episode TimeSteps:  690 Sand Penalty:  2487.5 Distance Penalty:  1520 Boundary Penalty:  30 Goal Reward:  0 Goal Penalty:  532.0000000000524
+Total Steps:  6070 Episode:  9 Reward:  -334.50000000000085 Episode TimeSteps:  750 Sand Penalty:  2857.0 Distance Penalty:  1520 Boundary Penalty:  30 Goal Reward:  0 Goal Penalty:  607.0000000000695
+Total Steps:  6398 Episode:  10 Reward:  -38.79999999999994 Episode TimeSteps:  328 Sand Penalty:  3013.0 Distance Penalty:  1520 Boundary Penalty:  40 Goal Reward:  0 Goal Penalty:  639.8000000000769
+Total Steps:  7044 Episode:  11 Reward:  85.40000000000254 Episode TimeSteps:  646 Sand Penalty:  3313.0 Distance Penalty:  1520 Boundary Penalty:  50 Goal Reward:  0 Goal Penalty:  704.4000000000916
+Total Steps:  7794 Episode:  12 Reward:  -334.50000000000097 Episode TimeSteps:  750 Sand Penalty:  3682.5 Distance Penalty:  1520 Boundary Penalty:  50 Goal Reward:  0 Goal Penalty:  779.4000000001087
+Reached the target: x: %s, y: %s 1020.9978394216446 412.82163618388824
+Total Steps:  8067 Episode:  13 Reward:  -67.19999999999916 Episode TimeSteps:  273 Sand Penalty:  3817.5 Distance Penalty:  1580 Boundary Penalty:  50 Goal Reward:  35 Goal Penalty:  806.6000000001148
+Total Steps:  8817 Episode:  14 Reward:  441.9999999999935 Episode TimeSteps:  750 Sand Penalty:  4170.5 Distance Penalty:  2440 Boundary Penalty:  50 Goal Reward:  35 Goal Penalty:  881.6000000001319
+Total Steps:  9024 Episode:  15 Reward:  1006.8000000000052 Episode TimeSteps:  207 Sand Penalty:  4243.0 Distance Penalty:  3420 Boundary Penalty:  60 Goal Reward:  35 Goal Penalty:  902.3000000001366
+Total Steps:  9774 Episode:  16 Reward:  -29.99999999999906 Episode TimeSteps:  750 Sand Penalty:  4598.0 Distance Penalty:  3420 Boundary Penalty:  60 Goal Reward:  35 Goal Penalty:  977.3000000001537
+Total Steps:  10169 Episode:  17 Reward:  15.500000000000563 Episode TimeSteps:  395 Sand Penalty:  4783.0 Distance Penalty:  3420 Boundary Penalty:  70 Goal Reward:  35 Goal Penalty:  1016.8000000001626
+Total Steps:  10919 Episode:  18 Reward:  217.5000000000011 Episode TimeSteps:  750 Sand Penalty:  5130.5 Distance Penalty:  3600 Boundary Penalty:  70 Goal Reward:  35 Goal Penalty:  1091.8000000001025
+Total Steps:  11669 Episode:  19 Reward:  159.00000000000193 Episode TimeSteps:  750 Sand Penalty:  5476.5 Distance Penalty:  3600 Boundary Penalty:  70 Goal Reward:  35 Goal Penalty:  1166.8000000000343
+Total Steps:  11980 Episode:  20 Reward:  -196.59999999999894 Episode TimeSteps:  311 Sand Penalty:  5632.0 Distance Penalty:  3600 Boundary Penalty:  80 Goal Reward:  35 Goal Penalty:  1197.900000000006
+Total Steps:  12730 Episode:  21 Reward:  314.9999999999994 Episode TimeSteps:  750 Sand Penalty:  5982.0 Distance Penalty:  4080 Boundary Penalty:  80 Goal Reward:  35 Goal Penalty:  1272.8999999999378
+Total Steps:  13480 Episode:  22 Reward:  574.999999999986 Episode TimeSteps:  750 Sand Penalty:  6332.0 Distance Penalty:  5080 Boundary Penalty:  80 Goal Reward:  35 Goal Penalty:  1347.8999999998696
+Total Steps:  14230 Episode:  23 Reward:  -49.4999999999992 Episode TimeSteps:  750 Sand Penalty:  6696.5 Distance Penalty:  5440 Boundary Penalty:  80 Goal Reward:  35 Goal Penalty:  1422.8999999998014
+Total Steps:  14376 Episode:  24 Reward:  427.3999999999975 Episode TimeSteps:  146 Sand Penalty:  6744.5 Distance Penalty:  5440 Boundary Penalty:  90 Goal Reward:  35 Goal Penalty:  1437.499999999788
+Total Steps:  14783 Episode:  25 Reward:  60.800000000001354 Episode TimeSteps:  407 Sand Penalty:  6933.0 Distance Penalty:  5440 Boundary Penalty:  100 Goal Reward:  35 Goal Penalty:  1478.199999999751
+Total Steps:  14977 Episode:  26 Reward:  -52.90000000000012 Episode TimeSteps:  194 Sand Penalty:  7026.5 Distance Penalty:  5440 Boundary Penalty:  110 Goal Reward:  35 Goal Penalty:  1497.5999999997334
+Total Steps:  15727 Episode:  27 Reward:  -117.99999999999739 Episode TimeSteps:  750 Sand Penalty:  7389.5 Distance Penalty:  5600 Boundary Penalty:  110 Goal Reward:  35 Goal Penalty:  1572.5999999996652
+Total Steps:  16010 Episode:  28 Reward:  -148.7999999999991 Episode TimeSteps:  283 Sand Penalty:  7530.0 Distance Penalty:  5620 Boundary Penalty:  120 Goal Reward:  35 Goal Penalty:  1600.8999999996395
+Total Steps:  16760 Episode:  29 Reward:  -218.99999999999875 Episode TimeSteps:  750 Sand Penalty:  7894.0 Distance Penalty:  5620 Boundary Penalty:  120 Goal Reward:  35 Goal Penalty:  1675.8999999995713
+Total Steps:  17046 Episode:  30 Reward:  146.39999999999927 Episode TimeSteps:  286 Sand Penalty:  8029.0 Distance Penalty:  5940 Boundary Penalty:  130 Goal Reward:  35 Goal Penalty:  1704.4999999995453
+Total Steps:  17796 Episode:  31 Reward:  267.49999999999363 Episode TimeSteps:  750 Sand Penalty:  8386.5 Distance Penalty:  6640 Boundary Penalty:  130 Goal Reward:  35 Goal Penalty:  1779.499999999477
+Total Steps:  18546 Episode:  32 Reward:  -218.99999999999733 Episode TimeSteps:  750 Sand Penalty:  8750.5 Distance Penalty:  6640 Boundary Penalty:  130 Goal Reward:  35 Goal Penalty:  1854.4999999994088
+Total Steps:  19296 Episode:  33 Reward:  749.4999999999884 Episode TimeSteps:  750 Sand Penalty:  9096.0 Distance Penalty:  7800 Boundary Penalty:  130 Goal Reward:  35 Goal Penalty:  1929.4999999993406
+Total Steps:  19767 Episode:  34 Reward:  356.8999999999973 Episode TimeSteps:  471 Sand Penalty:  9312.0 Distance Penalty:  8280 Boundary Penalty:  140 Goal Reward:  35 Goal Penalty:  1976.5999999992978
+Total Steps:  20496 Episode:  35 Reward:  50.6000000000016 Episode TimeSteps:  729 Sand Penalty:  9658.5 Distance Penalty:  8520 Boundary Penalty:  150 Goal Reward:  35 Goal Penalty:  2049.4999999992315
+Total Steps:  20925 Episode:  36 Reward:  205.09999999999692 Episode TimeSteps:  429 Sand Penalty:  9860.5 Distance Penalty:  8940 Boundary Penalty:  160 Goal Reward:  35 Goal Penalty:  2092.3999999991925
+Total Steps:  21585 Episode:  37 Reward:  525.4999999999986 Episode TimeSteps:  660 Sand Penalty:  10159.0 Distance Penalty:  9480 Boundary Penalty:  170 Goal Reward:  35 Goal Penalty:  2158.3999999991324
+Total Steps:  22335 Episode:  38 Reward:  55.000000000000405 Episode TimeSteps:  750 Sand Penalty:  10519.0 Distance Penalty:  9860 Boundary Penalty:  170 Goal Reward:  35 Goal Penalty:  2233.399999999064
+Total Steps:  23085 Episode:  39 Reward:  564.9999999999958 Episode TimeSteps:  750 Sand Penalty:  10869.0 Distance Penalty:  10840 Boundary Penalty:  170 Goal Reward:  35 Goal Penalty:  2308.399999998996
+Total Steps:  23179 Episode:  40 Reward:  -66.40000000000009 Episode TimeSteps:  94 Sand Penalty:  10916.0 Distance Penalty:  10840 Boundary Penalty:  180 Goal Reward:  35 Goal Penalty:  2317.7999999989875
+Total Steps:  23929 Episode:  41 Reward:  306.99999999999585 Episode TimeSteps:  750 Sand Penalty:  11264.0 Distance Penalty:  11220 Boundary Penalty:  180 Goal Reward:  35 Goal Penalty:  2392.7999999989192
+Total Steps:  24679 Episode:  42 Reward:  75.00000000000347 Episode TimeSteps:  750 Sand Penalty:  11614.0 Distance Penalty:  11220 Boundary Penalty:  180 Goal Reward:  35 Goal Penalty:  2467.799999998851
+Total Steps:  24854 Episode:  43 Reward:  126.50000000000017 Episode TimeSteps:  175 Sand Penalty:  11690.0 Distance Penalty:  11220 Boundary Penalty:  190 Goal Reward:  35 Goal Penalty:  2485.299999998835
+Total Steps:  25041 Episode:  44 Reward:  297.79999999999643 Episode TimeSteps:  187 Sand Penalty:  11763.5 Distance Penalty:  11220 Boundary Penalty:  200 Goal Reward:  35 Goal Penalty:  2503.999999998818
+Total Steps:  25282 Episode:  45 Reward:  152.9000000000006 Episode TimeSteps:  241 Sand Penalty:  11876.5 Distance Penalty:  11520 Boundary Penalty:  210 Goal Reward:  35 Goal Penalty:  2528.099999998796
+Total Steps:  26032 Episode:  46 Reward:  706.9999999999957 Episode TimeSteps:  750 Sand Penalty:  12204.5 Distance Penalty:  11860 Boundary Penalty:  210 Goal Reward:  35 Goal Penalty:  2603.099999998728
+Total Steps:  26782 Episode:  47 Reward:  159.00000000000207 Episode TimeSteps:  750 Sand Penalty:  12550.5 Distance Penalty:  11860 Boundary Penalty:  210 Goal Reward:  35 Goal Penalty:  2678.0999999986598
+Total Steps:  27532 Episode:  48 Reward:  1.5000000000020246 Episode TimeSteps:  750 Sand Penalty:  12904.0 Distance Penalty:  11860 Boundary Penalty:  210 Goal Reward:  35 Goal Penalty:  2753.0999999985916
+Total Steps:  28282 Episode:  49 Reward:  -134.99999999999645 Episode TimeSteps:  750 Sand Penalty:  13264.0 Distance Penalty:  11860 Boundary Penalty:  210 Goal Reward:  35 Goal Penalty:  2828.0999999985233
+Total Steps:  29032 Episode:  50 Reward:  -108.99999999999827 Episode TimeSteps:  750 Sand Penalty:  13628.0 Distance Penalty:  12080 Boundary Penalty:  210 Goal Reward:  35 Goal Penalty:  2903.099999998455
+Total Steps:  29782 Episode:  51 Reward:  600.4999999999853 Episode TimeSteps:  750 Sand Penalty:  13962.5 Distance Penalty:  12480 Boundary Penalty:  210 Goal Reward:  35 Goal Penalty:  2978.099999998387
+Total Steps:  30179 Episode:  52 Reward:  1275.3000000000015 Episode TimeSteps:  397 Sand Penalty:  14107.5 Distance Penalty:  13280 Boundary Penalty:  220 Goal Reward:  35 Goal Penalty:  3017.799999998351
+Total Steps:  30866 Episode:  53 Reward:  -46.699999999998454 Episode TimeSteps:  687 Sand Penalty:  14435.5 Distance Penalty:  13380 Boundary Penalty:  230 Goal Reward:  35 Goal Penalty:  3086.4999999982883
+Total Steps:  31616 Episode:  54 Reward:  -29.99999999999793 Episode TimeSteps:  750 Sand Penalty:  14790.5 Distance Penalty:  13380 Boundary Penalty:  230 Goal Reward:  35 Goal Penalty:  3161.49999999822
+Total Steps:  32366 Episode:  55 Reward:  96.00000000000259 Episode TimeSteps:  750 Sand Penalty:  15139.5 Distance Penalty:  13380 Boundary Penalty:  230 Goal Reward:  35 Goal Penalty:  3236.499999998152
+Total Steps:  33116 Episode:  56 Reward:  248.4999999999923 Episode TimeSteps:  750 Sand Penalty:  15496.0 Distance Penalty:  14000 Boundary Penalty:  230 Goal Reward:  35 Goal Penalty:  3311.4999999980837
+Total Steps:  33812 Episode:  57 Reward:  -417.100000000004 Episode TimeSteps:  696 Sand Penalty:  15843.5 Distance Penalty:  14000 Boundary Penalty:  240 Goal Reward:  35 Goal Penalty:  3381.0999999980204
+Total Steps:  34562 Episode:  58 Reward:  394.99999999999653 Episode TimeSteps:  750 Sand Penalty:  16183.5 Distance Penalty:  14220 Boundary Penalty:  240 Goal Reward:  35 Goal Penalty:  3456.099999997952
+Total Steps:  35312 Episode:  59 Reward:  639.9999999999941 Episode TimeSteps:  750 Sand Penalty:  16528.5 Distance Penalty:  15140 Boundary Penalty:  240 Goal Reward:  35 Goal Penalty:  3531.099999997884
+Reached the target: x: %s, y: %s 218.75982652529726 83.6835065080229
+Total Steps:  35765 Episode:  60 Reward:  409.2999999999921 Episode TimeSteps:  453 Sand Penalty:  16739.0 Distance Penalty:  15780 Boundary Penalty:  250 Goal Reward:  70 Goal Penalty:  3576.299999997843
+Total Steps:  36515 Episode:  61 Reward:  -155.99999999999818 Episode TimeSteps:  750 Sand Penalty:  17100.0 Distance Penalty:  15780 Boundary Penalty:  250 Goal Reward:  70 Goal Penalty:  3651.2999999977746
+Total Steps:  37265 Episode:  62 Reward:  -103.49999999999942 Episode TimeSteps:  750 Sand Penalty:  17458.5 Distance Penalty:  15780 Boundary Penalty:  250 Goal Reward:  70 Goal Penalty:  3726.2999999977064
+Total Steps:  37768 Episode:  63 Reward:  65.7000000000017 Episode TimeSteps:  503 Sand Penalty:  17692.5 Distance Penalty:  15800 Boundary Penalty:  260 Goal Reward:  70 Goal Penalty:  3776.5999999976607
+Total Steps:  38518 Episode:  64 Reward:  370.4999999999893 Episode TimeSteps:  750 Sand Penalty:  18047.0 Distance Penalty:  16580 Boundary Penalty:  260 Goal Reward:  70 Goal Penalty:  3851.5999999975925
+Total Steps:  38857 Episode:  65 Reward:  155.6000000000012 Episode TimeSteps:  339 Sand Penalty:  18207.5 Distance Penalty:  16940 Boundary Penalty:  270 Goal Reward:  70 Goal Penalty:  3885.4999999975616
+Total Steps:  39607 Episode:  66 Reward:  177.99999999999736 Episode TimeSteps:  750 Sand Penalty:  18564.5 Distance Penalty:  17440 Boundary Penalty:  270 Goal Reward:  70 Goal Penalty:  3960.4999999974934
+Total Steps:  40357 Episode:  67 Reward:  -45.999999999997996 Episode TimeSteps:  750 Sand Penalty:  18925.5 Distance Penalty:  17660 Boundary Penalty:  270 Goal Reward:  70 Goal Penalty:  4035.499999997425
+Total Steps:  40920 Episode:  68 Reward:  371.1999999999957 Episode TimeSteps:  563 Sand Penalty:  19178.0 Distance Penalty:  17880 Boundary Penalty:  280 Goal Reward:  70 Goal Penalty:  4091.799999997374
+Total Steps:  41670 Episode:  69 Reward:  229.4999999999985 Episode TimeSteps:  750 Sand Penalty:  19533.5 Distance Penalty:  18420 Boundary Penalty:  280 Goal Reward:  70 Goal Penalty:  4166.799999997627
+Total Steps:  42165 Episode:  70 Reward:  -285.99999999999983 Episode TimeSteps:  495 Sand Penalty:  19780.0 Distance Penalty:  18420 Boundary Penalty:  290 Goal Reward:  70 Goal Penalty:  4216.299999997807
+Total Steps:  42312 Episode:  71 Reward:  -77.19999999999987 Episode TimeSteps:  147 Sand Penalty:  19852.5 Distance Penalty:  18420 Boundary Penalty:  300 Goal Reward:  70 Goal Penalty:  4230.999999997861
+Total Steps:  42577 Episode:  72 Reward:  -168.9999999999992 Episode TimeSteps:  265 Sand Penalty:  19985.0 Distance Penalty:  18420 Boundary Penalty:  310 Goal Reward:  70 Goal Penalty:  4257.499999997957
+Total Steps:  43327 Episode:  73 Reward:  988.4999999999875 Episode TimeSteps:  750 Sand Penalty:  20301.5 Distance Penalty:  18840 Boundary Penalty:  310 Goal Reward:  70 Goal Penalty:  4332.49999999823
+Total Steps:  44077 Episode:  74 Reward:  697.9999999999881 Episode TimeSteps:  750 Sand Penalty:  20648.5 Distance Penalty:  19960 Boundary Penalty:  310 Goal Reward:  70 Goal Penalty:  4407.499999998503
+Total Steps:  44827 Episode:  75 Reward:  -50.99999999999786 Episode TimeSteps:  750 Sand Penalty:  21004.5 Distance Penalty:  19960 Boundary Penalty:  310 Goal Reward:  70 Goal Penalty:  4482.499999998776
+Reached the target: x: %s, y: %s 987.9946767239356 399.4999716619289
+Total Steps:  44828 Episode:  76 Reward:  55 Episode TimeSteps:  1 Sand Penalty:  21004.5 Distance Penalty:  19980 Boundary Penalty:  310 Goal Reward:  105 Goal Penalty:  4482.499999998776
+Total Steps:  45578 Episode:  77 Reward:  -450.0000000000056 Episode TimeSteps:  750 Sand Penalty:  21379.5 Distance Penalty:  19980 Boundary Penalty:  310 Goal Reward:  105 Goal Penalty:  4557.499999999049
+Total Steps:  45825 Episode:  78 Reward:  -158.1999999999993 Episode TimeSteps:  247 Sand Penalty:  21503.0 Distance Penalty:  19980 Boundary Penalty:  320 Goal Reward:  105 Goal Penalty:  4582.1999999991385
+Reached the target: x: %s, y: %s 192.57146580768276 122.54653380699607
+Total Steps:  46151 Episode:  79 Reward:  557.4999999999967 Episode TimeSteps:  326 Sand Penalty:  21648.0 Distance Penalty:  20680 Boundary Penalty:  330 Goal Reward:  140 Goal Penalty:  4614.699999999257
+Total Steps:  46839 Episode:  80 Reward:  -12.799999999999782 Episode TimeSteps:  688 Sand Penalty:  21982.0 Distance Penalty:  21080 Boundary Penalty:  340 Goal Reward:  140 Goal Penalty:  4683.499999999507
+Total Steps:  47411 Episode:  81 Reward:  40.30000000000198 Episode TimeSteps:  572 Sand Penalty:  22254.5 Distance Penalty:  21300 Boundary Penalty:  350 Goal Reward:  140 Goal Penalty:  4740.699999999715
+Total Steps:  47627 Episode:  82 Reward:  174.90000000000106 Episode TimeSteps:  216 Sand Penalty:  22348.0 Distance Penalty:  21320 Boundary Penalty:  360 Goal Reward:  140 Goal Penalty:  4762.299999999794
+Total Steps:  48377 Episode:  83 Reward:  454.4999999999943 Episode TimeSteps:  750 Sand Penalty:  22698.5 Distance Penalty:  22100 Boundary Penalty:  360 Goal Reward:  140 Goal Penalty:  4837.300000000067
+Total Steps:  48505 Episode:  84 Reward:  38.19999999999992 Episode TimeSteps:  128 Sand Penalty:  22757.5 Distance Penalty:  22140 Boundary Penalty:  370 Goal Reward:  140 Goal Penalty:  4850.100000000113
+Total Steps:  49255 Episode:  85 Reward:  81.00000000000347 Episode TimeSteps:  750 Sand Penalty:  23111.5 Distance Penalty:  22320 Boundary Penalty:  370 Goal Reward:  140 Goal Penalty:  4925.100000000386
+Total Steps:  49391 Episode:  86 Reward:  86.8999999999999 Episode TimeSteps:  136 Sand Penalty:  23171.0 Distance Penalty:  22320 Boundary Penalty:  380 Goal Reward:  140 Goal Penalty:  4938.7000000004355
+Total Steps:  50141 Episode:  87 Reward:  195.5000000000006 Episode TimeSteps:  750 Sand Penalty:  23520.5 Distance Penalty:  22540 Boundary Penalty:  380 Goal Reward:  140 Goal Penalty:  5013.700000000708
+Total Steps:  50891 Episode:  88 Reward:  51.000000000002544 Episode TimeSteps:  750 Sand Penalty:  23874.5 Distance Penalty:  22660 Boundary Penalty:  380 Goal Reward:  140 Goal Penalty:  5088.700000000981
+Total Steps:  51641 Episode:  89 Reward:  -224.49999999999793 Episode TimeSteps:  750 Sand Penalty:  24244.0 Distance Penalty:  22880 Boundary Penalty:  380 Goal Reward:  140 Goal Penalty:  5163.700000001254
+Total Steps:  51790 Episode:  90 Reward:  -99.39999999999986 Episode TimeSteps:  149 Sand Penalty:  24318.5 Distance Penalty:  22880 Boundary Penalty:  390 Goal Reward:  140 Goal Penalty:  5178.600000001308
+Total Steps:  52162 Episode:  91 Reward:  -17.69999999999944 Episode TimeSteps:  372 Sand Penalty:  24499.0 Distance Penalty:  23080 Boundary Penalty:  400 Goal Reward:  140 Goal Penalty:  5215.800000001444
+Total Steps:  52912 Episode:  92 Reward:  841.4999999999984 Episode TimeSteps:  750 Sand Penalty:  24842.5 Distance Penalty:  24340 Boundary Penalty:  400 Goal Reward:  140 Goal Penalty:  5290.800000001716
+Total Steps:  53367 Episode:  93 Reward:  -41.49999999999976 Episode TimeSteps:  455 Sand Penalty:  25058.5 Distance Penalty:  24340 Boundary Penalty:  410 Goal Reward:  140 Goal Penalty:  5336.300000001882
+Total Steps:  53559 Episode:  94 Reward:  -125.19999999999962 Episode TimeSteps:  192 Sand Penalty:  25154.5 Distance Penalty:  24340 Boundary Penalty:  420 Goal Reward:  140 Goal Penalty:  5355.500000001952
+Total Steps:  54114 Episode:  95 Reward:  808.9999999999948 Episode TimeSteps:  555 Sand Penalty:  25380.0 Distance Penalty:  24460 Boundary Penalty:  430 Goal Reward:  140 Goal Penalty:  5411.000000002154
+Total Steps:  54863 Episode:  96 Reward:  914.0999999999918 Episode TimeSteps:  749 Sand Penalty:  25721.0 Distance Penalty:  25800 Boundary Penalty:  440 Goal Reward:  140 Goal Penalty:  5485.900000002426
+Total Steps:  55414 Episode:  97 Reward:  -340.6000000000011 Episode TimeSteps:  551 Sand Penalty:  25996.5 Distance Penalty:  25800 Boundary Penalty:  450 Goal Reward:  140 Goal Penalty:  5541.000000002627
+Total Steps:  55593 Episode:  98 Reward:  190.10000000000025 Episode TimeSteps:  179 Sand Penalty:  26078.5 Distance Penalty:  26100 Boundary Penalty:  460 Goal Reward:  140 Goal Penalty:  5558.900000002692
+Total Steps:  56101 Episode:  99 Reward:  52.70000000000201 Episode TimeSteps:  508 Sand Penalty:  26315.0 Distance Penalty:  26100 Boundary Penalty:  470 Goal Reward:  140 Goal Penalty:  5609.700000002877
+Total Steps:  56851 Episode:  100 Reward:  236.99999999999613 Episode TimeSteps:  750 Sand Penalty:  26673.0 Distance Penalty:  26760 Boundary Penalty:  470 Goal Reward:  140 Goal Penalty:  5684.700000003149
+Total Steps:  57039 Episode:  101 Reward:  371.69999999999607 Episode TimeSteps:  188 Sand Penalty:  26752.5 Distance Penalty:  27140 Boundary Penalty:  480 Goal Reward:  140 Goal Penalty:  5703.500000003218
+Total Steps:  57126 Episode:  102 Reward:  -20.200000000000045 Episode TimeSteps:  87 Sand Penalty:  26794.0 Distance Penalty:  27140 Boundary Penalty:  490 Goal Reward:  140 Goal Penalty:  5712.200000003249
+Total Steps:  57876 Episode:  103 Reward:  587.9999999999919 Episode TimeSteps:  750 Sand Penalty:  27141.0 Distance Penalty:  28040 Boundary Penalty:  490 Goal Reward:  140 Goal Penalty:  5787.200000003522
+Total Steps:  58626 Episode:  104 Reward:  -230.99999999999747 Episode TimeSteps:  750 Sand Penalty:  27507.0 Distance Penalty:  28100 Boundary Penalty:  490 Goal Reward:  140 Goal Penalty:  5862.200000003795
+Total Steps:  58858 Episode:  105 Reward:  -2.1999999999999638 Episode TimeSteps:  232 Sand Penalty:  27616.0 Distance Penalty:  28100 Boundary Penalty:  500 Goal Reward:  140 Goal Penalty:  5885.4000000038795
+Total Steps:  59608 Episode:  106 Reward:  656.9999999999881 Episode TimeSteps:  750 Sand Penalty:  27964.0 Distance Penalty:  29180 Boundary Penalty:  500 Goal Reward:  140 Goal Penalty:  5960.400000004152
+Total Steps:  60357 Episode:  107 Reward:  -116.89999999999884 Episode TimeSteps:  749 Sand Penalty:  28326.0 Distance Penalty:  29340 Boundary Penalty:  510 Goal Reward:  140 Goal Penalty:  6035.300000004425
+Total Steps:  61107 Episode:  108 Reward:  315.4999999999879 Episode TimeSteps:  750 Sand Penalty:  28675.5 Distance Penalty:  29800 Boundary Penalty:  510 Goal Reward:  140 Goal Penalty:  6110.300000004698
+Total Steps:  61599 Episode:  109 Reward:  -116.19999999999942 Episode TimeSteps:  492 Sand Penalty:  28912.5 Distance Penalty:  29800 Boundary Penalty:  520 Goal Reward:  140 Goal Penalty:  6159.500000004877
+Total Steps:  62125 Episode:  110 Reward:  -73.59999999999889 Episode TimeSteps:  526 Sand Penalty:  29163.5 Distance Penalty:  29800 Boundary Penalty:  530 Goal Reward:  140 Goal Penalty:  6212.100000005068
+Total Steps:  62478 Episode:  111 Reward:  269.19999999999885 Episode TimeSteps:  353 Sand Penalty:  29319.0 Distance Penalty:  29900 Boundary Penalty:  540 Goal Reward:  140 Goal Penalty:  6247.4000000051965
+Total Steps:  62761 Episode:  112 Reward:  82.7000000000007 Episode TimeSteps:  283 Sand Penalty:  29448.0 Distance Penalty:  29900 Boundary Penalty:  550 Goal Reward:  140 Goal Penalty:  6275.700000005299
+Total Steps:  63511 Episode:  113 Reward:  -30.49999999999847 Episode TimeSteps:  750 Sand Penalty:  29803.5 Distance Penalty:  29920 Boundary Penalty:  550 Goal Reward:  140 Goal Penalty:  6350.700000005572
+Total Steps:  63684 Episode:  114 Reward:  -19.29999999999977 Episode TimeSteps:  173 Sand Penalty:  29885.5 Distance Penalty:  29920 Boundary Penalty:  560 Goal Reward:  140 Goal Penalty:  6368.000000005635
+Total Steps:  63994 Episode:  115 Reward:  -195.99999999999895 Episode TimeSteps:  310 Sand Penalty:  30040.5 Distance Penalty:  29920 Boundary Penalty:  570 Goal Reward:  140 Goal Penalty:  6399.000000005748
+Total Steps:  64143 Episode:  116 Reward:  -99.39999999999986 Episode TimeSteps:  149 Sand Penalty:  30115.0 Distance Penalty:  29920 Boundary Penalty:  580 Goal Reward:  140 Goal Penalty:  6413.900000005802
+Total Steps:  64893 Episode:  117 Reward:  257.49999999999335 Episode TimeSteps:  750 Sand Penalty:  30472.5 Distance Penalty:  30600 Boundary Penalty:  580 Goal Reward:  140 Goal Penalty:  6488.900000006075
+Total Steps:  65414 Episode:  118 Reward:  -322.6000000000004 Episode TimeSteps:  521 Sand Penalty:  30733.0 Distance Penalty:  30600 Boundary Penalty:  590 Goal Reward:  140 Goal Penalty:  6541.000000006265
+Total Steps:  66164 Episode:  119 Reward:  210.4999999999916 Episode TimeSteps:  750 Sand Penalty:  31087.5 Distance Penalty:  31060 Boundary Penalty:  590 Goal Reward:  140 Goal Penalty:  6616.000000006537
+Total Steps:  66914 Episode:  120 Reward:  452.9999999999844 Episode TimeSteps:  750 Sand Penalty:  31419.5 Distance Penalty:  31060 Boundary Penalty:  590 Goal Reward:  140 Goal Penalty:  6691.00000000681
+Total Steps:  67664 Episode:  121 Reward:  810.9999999999936 Episode TimeSteps:  750 Sand Penalty:  31763.5 Distance Penalty:  32280 Boundary Penalty:  590 Goal Reward:  140 Goal Penalty:  6766.000000007083
+Total Steps:  68295 Episode:  122 Reward:  -336.60000000000105 Episode TimeSteps:  631 Sand Penalty:  32077.0 Distance Penalty:  32300 Boundary Penalty:  600 Goal Reward:  140 Goal Penalty:  6829.100000007313
+Total Steps:  69045 Episode:  123 Reward:  7.0000000000015685 Episode TimeSteps:  750 Sand Penalty:  32435.0 Distance Penalty:  32500 Boundary Penalty:  600 Goal Reward:  140 Goal Penalty:  6904.100000007586
+Total Steps:  69795 Episode:  124 Reward:  535.4999999999949 Episode TimeSteps:  750 Sand Penalty:  32774.5 Distance Penalty:  32980 Boundary Penalty:  600 Goal Reward:  140 Goal Penalty:  6979.100000007858
+Total Steps:  69910 Episode:  125 Reward:  -79.00000000000006 Episode TimeSteps:  115 Sand Penalty:  32832.0 Distance Penalty:  32980 Boundary Penalty:  610 Goal Reward:  140 Goal Penalty:  6990.6000000079
+Total Steps:  70614 Episode:  126 Reward:  1027.0999999999951 Episode TimeSteps:  704 Sand Penalty:  33144.5 Distance Penalty:  34240 Boundary Penalty:  620 Goal Reward:  140 Goal Penalty:  7061.000000008156
+Total Steps:  71364 Episode:  127 Reward:  -29.999999999998398 Episode TimeSteps:  750 Sand Penalty:  33499.5 Distance Penalty:  34240 Boundary Penalty:  620 Goal Reward:  140 Goal Penalty:  7136.000000008429
+Total Steps:  71825 Episode:  128 Reward:  -108.09999999999934 Episode TimeSteps:  461 Sand Penalty:  33721.5 Distance Penalty:  34240 Boundary Penalty:  630 Goal Reward:  140 Goal Penalty:  7182.100000008597
+Total Steps:  72575 Episode:  129 Reward:  -129.49999999999747 Episode TimeSteps:  750 Sand Penalty:  34086.0 Distance Penalty:  34440 Boundary Penalty:  630 Goal Reward:  140 Goal Penalty:  7257.10000000887
+Total Steps:  73325 Episode:  130 Reward:  116.99999999999906 Episode TimeSteps:  750 Sand Penalty:  34434.0 Distance Penalty:  34440 Boundary Penalty:  630 Goal Reward:  140 Goal Penalty:  7332.100000009143
+Total Steps:  74075 Episode:  131 Reward:  125.00000000000281 Episode TimeSteps:  750 Sand Penalty:  34794.0 Distance Penalty:  34960 Boundary Penalty:  630 Goal Reward:  140 Goal Penalty:  7407.100000009415
+Total Steps:  74551 Episode:  132 Reward:  86.90000000000084 Episode TimeSteps:  476 Sand Penalty:  35019.5 Distance Penalty:  35200 Boundary Penalty:  640 Goal Reward:  140 Goal Penalty:  7454.700000009589
+Total Steps:  75301 Episode:  133 Reward:  -245.00000000000045 Episode TimeSteps:  750 Sand Penalty:  35389.5 Distance Penalty:  35400 Boundary Penalty:  640 Goal Reward:  140 Goal Penalty:  7529.7000000098615
+Total Steps:  76051 Episode:  134 Reward:  272.99999999998846 Episode TimeSteps:  750 Sand Penalty:  35731.5 Distance Penalty:  35460 Boundary Penalty:  640 Goal Reward:  140 Goal Penalty:  7604.700000010134
+Total Steps:  76801 Episode:  135 Reward:  68.00000000000313 Episode TimeSteps:  750 Sand Penalty:  36088.5 Distance Penalty:  35740 Boundary Penalty:  640 Goal Reward:  140 Goal Penalty:  7679.700000010407
+Total Steps:  77551 Episode:  136 Reward:  43.50000000000251 Episode TimeSteps:  750 Sand Penalty:  36440.0 Distance Penalty:  35740 Boundary Penalty:  640 Goal Reward:  140 Goal Penalty:  7754.70000001068
+Total Steps:  78092 Episode:  137 Reward:  -126.5999999999984 Episode TimeSteps:  541 Sand Penalty:  36702.5 Distance Penalty:  35820 Boundary Penalty:  650 Goal Reward:  140 Goal Penalty:  7808.800000010877
+Total Steps:  78780 Episode:  138 Reward:  5.700000000001191 Episode TimeSteps:  688 Sand Penalty:  37028.0 Distance Penalty:  35900 Boundary Penalty:  660 Goal Reward:  140 Goal Penalty:  7877.600000011127
+Reached the target: x: %s, y: %s 975.0936459137646 401.16185077402497
+Total Steps:  79177 Episode:  139 Reward:  83.90000000000089 Episode TimeSteps:  397 Sand Penalty:  37219.5 Distance Penalty:  36180 Boundary Penalty:  660 Goal Reward:  175 Goal Penalty:  7917.200000011271
+Total Steps:  79927 Episode:  140 Reward:  365.99999999999244 Episode TimeSteps:  750 Sand Penalty:  37558.5 Distance Penalty:  36300 Boundary Penalty:  660 Goal Reward:  175 Goal Penalty:  7992.200000011544
+Total Steps:  80442 Episode:  141 Reward:  869.999999999998 Episode TimeSteps:  515 Sand Penalty:  37787.0 Distance Penalty:  37460 Boundary Penalty:  670 Goal Reward:  175 Goal Penalty:  8043.700000011731
+Total Steps:  81192 Episode:  142 Reward:  1549.000000000037 Episode TimeSteps:  750 Sand Penalty:  38103.0 Distance Penalty:  38980 Boundary Penalty:  670 Goal Reward:  175 Goal Penalty:  8118.700000012004
+Total Steps:  81942 Episode:  143 Reward:  892.9999999999942 Episode TimeSteps:  750 Sand Penalty:  38445.0 Distance Penalty:  40280 Boundary Penalty:  670 Goal Reward:  175 Goal Penalty:  8193.700000012277
+Reached the target: x: %s, y: %s 193.67716710948025 123.43302268278345
+Total Steps:  82692 Episode:  144 Reward:  707.0999999999834 Episode TimeSteps:  750 Sand Penalty:  38778.0 Distance Penalty:  40760 Boundary Penalty:  670 Goal Reward:  210 Goal Penalty:  8268.60000001255
+Total Steps:  83442 Episode:  145 Reward:  1.0000000000017688 Episode TimeSteps:  750 Sand Penalty:  39142.0 Distance Penalty:  41200 Boundary Penalty:  670 Goal Reward:  210 Goal Penalty:  8343.600000012822
+Total Steps:  84192 Episode:  146 Reward:  -450.0000000000056 Episode TimeSteps:  750 Sand Penalty:  39517.0 Distance Penalty:  41200 Boundary Penalty:  670 Goal Reward:  210 Goal Penalty:  8418.600000013095
+Total Steps:  84942 Episode:  147 Reward:  738.9999999999952 Episode TimeSteps:  750 Sand Penalty:  39863.0 Distance Penalty:  42360 Boundary Penalty:  670 Goal Reward:  210 Goal Penalty:  8493.600000013368
+Total Steps:  85378 Episode:  148 Reward:  -30.60000000000022 Episode TimeSteps:  436 Sand Penalty:  40070.0 Distance Penalty:  42380 Boundary Penalty:  680 Goal Reward:  210 Goal Penalty:  8537.200000013527
+Total Steps:  86128 Episode:  149 Reward:  153.00000000000136 Episode TimeSteps:  750 Sand Penalty:  40422.0 Distance Penalty:  42620 Boundary Penalty:  680 Goal Reward:  210 Goal Penalty:  8612.2000000138
+Total Steps:  86878 Episode:  150 Reward:  380.99999999999056 Episode TimeSteps:  750 Sand Penalty:  40776.0 Distance Penalty:  43400 Boundary Penalty:  680 Goal Reward:  210 Goal Penalty:  8687.200000014072
+Total Steps:  87628 Episode:  151 Reward:  1467.0000000000061 Episode TimeSteps:  750 Sand Penalty:  41104.0 Distance Penalty:  45260 Boundary Penalty:  680 Goal Reward:  210 Goal Penalty:  8762.200000014345
+Total Steps:  87658 Episode:  152 Reward:  66.50000000000001 Episode TimeSteps:  30 Sand Penalty:  41114.5 Distance Penalty:  45260 Boundary Penalty:  690 Goal Reward:  210 Goal Penalty:  8765.200000014356
+Total Steps:  88408 Episode:  153 Reward:  -162.99999999999838 Episode TimeSteps:  750 Sand Penalty:  41482.5 Distance Penalty:  45540 Boundary Penalty:  690 Goal Reward:  210 Goal Penalty:  8840.200000014629
+Total Steps:  89158 Episode:  154 Reward:  267.5000000000008 Episode TimeSteps:  750 Sand Penalty:  41840.0 Distance Penalty:  46240 Boundary Penalty:  690 Goal Reward:  210 Goal Penalty:  8915.200000014902
+Total Steps:  89908 Episode:  155 Reward:  1026.0000000000146 Episode TimeSteps:  750 Sand Penalty:  42179.0 Distance Penalty:  47680 Boundary Penalty:  690 Goal Reward:  210 Goal Penalty:  8990.200000015175
+Total Steps:  90658 Episode:  156 Reward:  308.5000000000021 Episode TimeSteps:  750 Sand Penalty:  42535.5 Distance Penalty:  48420 Boundary Penalty:  690 Goal Reward:  210 Goal Penalty:  9065.200000015448
+Reached the target: x: %s, y: %s 989.9224468273819 377.4850234985622
+Total Steps:  90746 Episode:  157 Reward:  -17.70000000000008 Episode TimeSteps:  88 Sand Penalty:  42579.5 Distance Penalty:  48420 Boundary Penalty:  690 Goal Reward:  245 Goal Penalty:  9073.90000001548
+Total Steps:  91496 Episode:  158 Reward:  533.999999999986 Episode TimeSteps:  750 Sand Penalty:  42930.5 Distance Penalty:  49380 Boundary Penalty:  690 Goal Reward:  245 Goal Penalty:  9148.900000015752
+Total Steps:  92246 Episode:  159 Reward:  246.9999999999876 Episode TimeSteps:  750 Sand Penalty:  43288.5 Distance Penalty:  50060 Boundary Penalty:  690 Goal Reward:  245 Goal Penalty:  9223.900000016025
+Total Steps:  92996 Episode:  160 Reward:  -450.0000000000056 Episode TimeSteps:  750 Sand Penalty:  43663.5 Distance Penalty:  50060 Boundary Penalty:  690 Goal Reward:  245 Goal Penalty:  9298.900000016298
+Reached the target: x: %s, y: %s 216.87701918559844 81.6736583633016
+Total Steps:  93746 Episode:  161 Reward:  897.099999999991 Episode TimeSteps:  750 Sand Penalty:  44006.5 Distance Penalty:  51340 Boundary Penalty:  690 Goal Reward:  280 Goal Penalty:  9373.80000001657
+Reached the target: x: %s, y: %s 1022.9991021305012 409.2259902278877
+Total Steps:  93988 Episode:  162 Reward:  566.3999999999967 Episode TimeSteps:  242 Sand Penalty:  44111.0 Distance Penalty:  52000 Boundary Penalty:  690 Goal Reward:  315 Goal Penalty:  9397.900000016658
+Total Steps:  94738 Episode:  163 Reward:  205.99999999999778 Episode TimeSteps:  750 Sand Penalty:  44470.0 Distance Penalty:  52640 Boundary Penalty:  690 Goal Reward:  315 Goal Penalty:  9472.90000001693
+Total Steps:  95465 Episode:  164 Reward:  -446.2000000000051 Episode TimeSteps:  727 Sand Penalty:  44833.5 Distance Penalty:  52640 Boundary Penalty:  700 Goal Reward:  315 Goal Penalty:  9545.600000017195
+Total Steps:  96215 Episode:  165 Reward:  677.499999999984 Episode TimeSteps:  750 Sand Penalty:  45181.0 Distance Penalty:  53740 Boundary Penalty:  700 Goal Reward:  315 Goal Penalty:  9620.600000017468
+Total Steps:  96702 Episode:  166 Reward:  -177.1999999999988 Episode TimeSteps:  487 Sand Penalty:  45419.5 Distance Penalty:  53780 Boundary Penalty:  710 Goal Reward:  315 Goal Penalty:  9669.300000017645
+Reached the target: x: %s, y: %s 184.27136842904196 119.2744132241332
+Total Steps:  97452 Episode:  167 Reward:  1030.599999999997 Episode TimeSteps:  750 Sand Penalty:  45759.0 Distance Penalty:  55180 Boundary Penalty:  710 Goal Reward:  350 Goal Penalty:  9744.200000017918
+Reached the target: x: %s, y: %s 1014.2762979077403 420.20268189409114
+Total Steps:  97901 Episode:  168 Reward:  155.1999999999972 Episode TimeSteps:  449 Sand Penalty:  45974.0 Distance Penalty:  55560 Boundary Penalty:  710 Goal Reward:  385 Goal Penalty:  9789.00000001808
+Reached the target: x: %s, y: %s 222.94478112887103 109.24690833098715
+Total Steps:  98651 Episode:  169 Reward:  220.60000000000156 Episode TimeSteps:  750 Sand Penalty:  46333.5 Distance Penalty:  56180 Boundary Penalty:  710 Goal Reward:  420 Goal Penalty:  9863.900000018353
+Total Steps:  99401 Episode:  170 Reward:  165.00000000000182 Episode TimeSteps:  750 Sand Penalty:  46693.5 Distance Penalty:  56780 Boundary Penalty:  710 Goal Reward:  420 Goal Penalty:  9938.900000018626
+Reached the target: x: %s, y: %s 1024.0389440758245 394.4339332635116
+Total Steps:  99746 Episode:  171 Reward:  238.1000000000006 Episode TimeSteps:  345 Sand Penalty:  46856.0 Distance Penalty:  57180 Boundary Penalty:  710 Goal Reward:  455 Goal Penalty:  9973.300000018751
+Total Steps:  100496 Episode:  172 Reward:  236.99999999998425 Episode TimeSteps:  750 Sand Penalty:  47214.0 Distance Penalty:  57840 Boundary Penalty:  710 Goal Reward:  455 Goal Penalty:  10048.300000019024
+Total Steps:  101246 Episode:  173 Reward:  410.99999999999136 Episode TimeSteps:  750 Sand Penalty:  47568.0 Distance Penalty:  58680 Boundary Penalty:  710 Goal Reward:  455 Goal Penalty:  10123.300000019297
+Total Steps:  101627 Episode:  174 Reward:  69.40000000000134 Episode TimeSteps:  381 Sand Penalty:  47750.5 Distance Penalty:  58960 Boundary Penalty:  720 Goal Reward:  455 Goal Penalty:  10161.400000019436
+Total Steps:  102377 Episode:  175 Reward:  882.4999999999955 Episode TimeSteps:  750 Sand Penalty:  48093.0 Distance Penalty:  60260 Boundary Penalty:  720 Goal Reward:  455 Goal Penalty:  10236.400000019708
+Total Steps:  103127 Episode:  176 Reward:  -450.0000000000056 Episode TimeSteps:  750 Sand Penalty:  48468.0 Distance Penalty:  60260 Boundary Penalty:  720 Goal Reward:  455 Goal Penalty:  10311.400000019981
+Total Steps:  103877 Episode:  177 Reward:  636.4999999999899 Episode TimeSteps:  750 Sand Penalty:  48816.5 Distance Penalty:  61320 Boundary Penalty:  720 Goal Reward:  455 Goal Penalty:  10386.400000020254
+Total Steps:  104627 Episode:  178 Reward:  -244.99999999999764 Episode TimeSteps:  750 Sand Penalty:  49186.5 Distance Penalty:  61520 Boundary Penalty:  720 Goal Reward:  455 Goal Penalty:  10461.400000020527
+Total Steps:  105377 Episode:  179 Reward:  410.9999999999916 Episode TimeSteps:  750 Sand Penalty:  49540.5 Distance Penalty:  62360 Boundary Penalty:  720 Goal Reward:  455 Goal Penalty:  10536.4000000208
+Reached the target: x: %s, y: %s 201.7782469608897 75.22156598794267
+Total Steps:  106127 Episode:  180 Reward:  692.0999999999942 Episode TimeSteps:  750 Sand Penalty:  49888.5 Distance Penalty:  63440 Boundary Penalty:  720 Goal Reward:  490 Goal Penalty:  10611.300000021072
+Reached the target: x: %s, y: %s 1004.4591524343949 424.5365216989462
+Total Steps:  106381 Episode:  181 Reward:  -76.29999999999971 Episode TimeSteps:  254 Sand Penalty:  50014.5 Distance Penalty:  63480 Boundary Penalty:  720 Goal Reward:  525 Goal Penalty:  10636.600000021164
+Total Steps:  107131 Episode:  182 Reward:  -244.9999999999977 Episode TimeSteps:  750 Sand Penalty:  50384.5 Distance Penalty:  63680 Boundary Penalty:  720 Goal Reward:  525 Goal Penalty:  10711.600000021437
+Total Steps:  107565 Episode:  183 Reward:  -270.39999999999844 Episode TimeSteps:  434 Sand Penalty:  50601.5 Distance Penalty:  63680 Boundary Penalty:  730 Goal Reward:  525 Goal Penalty:  10755.000000021595
+Total Steps:  108315 Episode:  184 Reward:  83.00000000000199 Episode TimeSteps:  750 Sand Penalty:  50963.5 Distance Penalty:  64200 Boundary Penalty:  730 Goal Reward:  525 Goal Penalty:  10830.000000021868
+Total Steps:  109065 Episode:  185 Reward:  913.4999999999887 Episode TimeSteps:  750 Sand Penalty:  51305.0 Distance Penalty:  65520 Boundary Penalty:  730 Goal Reward:  525 Goal Penalty:  10905.00000002214
+Reached the target: x: %s, y: %s 184.0110370816259 80.82197670850388
+Total Steps:  109815 Episode:  186 Reward:  610.0999999999981 Episode TimeSteps:  750 Sand Penalty:  51655.0 Distance Penalty:  66520 Boundary Penalty:  730 Goal Reward:  560 Goal Penalty:  10979.900000022413
+Total Steps:  110565 Episode:  187 Reward:  1374.5000000000628 Episode TimeSteps:  750 Sand Penalty:  51985.5 Distance Penalty:  68300 Boundary Penalty:  730 Goal Reward:  560 Goal Penalty:  11054.900000022686
+Reached the target: x: %s, y: %s 997.1027424905144 375.62389162400007
+Total Steps:  110931 Episode:  188 Reward:  102.50000000000131 Episode TimeSteps:  366 Sand Penalty:  52161.5 Distance Penalty:  68580 Boundary Penalty:  730 Goal Reward:  595 Goal Penalty:  11091.400000022819
+Total Steps:  111681 Episode:  189 Reward:  269.49999999999494 Episode TimeSteps:  750 Sand Penalty:  52517.0 Distance Penalty:  69200 Boundary Penalty:  730 Goal Reward:  595 Goal Penalty:  11166.400000023092
+Reached the target: x: %s, y: %s 176.93139009951167 102.76081666383212
+Total Steps:  112431 Episode:  190 Reward:  1943.1000000000622 Episode TimeSteps:  750 Sand Penalty:  52834.0 Distance Penalty:  71480 Boundary Penalty:  730 Goal Reward:  630 Goal Penalty:  11241.300000023364
+Reached the target: x: %s, y: %s 1006.7265518146761 376.08685530764103
+Total Steps:  112901 Episode:  191 Reward:  450.0999999999948 Episode TimeSteps:  470 Sand Penalty:  53052.0 Distance Penalty:  72160 Boundary Penalty:  730 Goal Reward:  665 Goal Penalty:  11288.200000023535
+Total Steps:  113651 Episode:  192 Reward:  656.9999999999864 Episode TimeSteps:  750 Sand Penalty:  53400.0 Distance Penalty:  73240 Boundary Penalty:  730 Goal Reward:  665 Goal Penalty:  11363.200000023808
+Total Steps:  114401 Episode:  193 Reward:  339.4999999999884 Episode TimeSteps:  750 Sand Penalty:  53755.5 Distance Penalty:  74000 Boundary Penalty:  730 Goal Reward:  665 Goal Penalty:  11438.20000002408
+Reached the target: x: %s, y: %s 198.55435714418803 124.53303090699725
+Total Steps:  115151 Episode:  194 Reward:  600.5999999999924 Episode TimeSteps:  750 Sand Penalty:  54105.0 Distance Penalty:  74960 Boundary Penalty:  730 Goal Reward:  700 Goal Penalty:  11513.100000024353
+Total Steps:  115344 Episode:  195 Reward:  99.70000000000056 Episode TimeSteps:  193 Sand Penalty:  54196.0 Distance Penalty:  75180 Boundary Penalty:  740 Goal Reward:  700 Goal Penalty:  11532.400000024423
+Total Steps:  116094 Episode:  196 Reward:  410.99999999999466 Episode TimeSteps:  750 Sand Penalty:  54550.0 Distance Penalty:  76020 Boundary Penalty:  740 Goal Reward:  700 Goal Penalty:  11607.400000024696
+Total Steps:  116844 Episode:  197 Reward:  718.499999999989 Episode TimeSteps:  750 Sand Penalty:  54896.5 Distance Penalty:  77160 Boundary Penalty:  740 Goal Reward:  700 Goal Penalty:  11682.400000024969
+Total Steps:  117594 Episode:  198 Reward:  564.999999999984 Episode TimeSteps:  750 Sand Penalty:  55246.5 Distance Penalty:  78140 Boundary Penalty:  740 Goal Reward:  700 Goal Penalty:  11757.400000025242
+Reached the target: x: %s, y: %s 1023.7277252325206 404.68743942294316
+Total Steps:  118167 Episode:  199 Reward:  1064.7999999999993 Episode TimeSteps:  573 Sand Penalty:  55499.5 Distance Penalty:  79480 Boundary Penalty:  740 Goal Reward:  735 Goal Penalty:  11814.60000002545
+Reached the target: x: %s, y: %s 183.27755995304213 116.82507125996737
+Total Steps:  118917 Episode:  200 Reward:  1030.6000000000233 Episode TimeSteps:  750 Sand Penalty:  55839.0 Distance Penalty:  80880 Boundary Penalty:  740 Goal Reward:  770 Goal Penalty:  11889.500000025722
+Total Steps:  119667 Episode:  201 Reward:  564.9999999999998 Episode TimeSteps:  750 Sand Penalty:  56189.0 Distance Penalty:  81860 Boundary Penalty:  740 Goal Reward:  770 Goal Penalty:  11964.500000025995
+Reached the target: x: %s, y: %s 989.2420181152131 377.6180256756805
+Total Steps:  119938 Episode:  202 Reward:  139.0000000000013 Episode TimeSteps:  271 Sand Penalty:  56318.0 Distance Penalty:  82120 Boundary Penalty:  740 Goal Reward:  805 Goal Penalty:  11991.500000026093
+Total Steps:  120688 Episode:  203 Reward:  513.4999999999883 Episode TimeSteps:  750 Sand Penalty:  56669.5 Distance Penalty:  83060 Boundary Penalty:  740 Goal Reward:  805 Goal Penalty:  12066.500000026366
+Total Steps:  121438 Episode:  204 Reward:  144.5000000000009 Episode TimeSteps:  750 Sand Penalty:  57030.0 Distance Penalty:  83640 Boundary Penalty:  740 Goal Reward:  805 Goal Penalty:  12141.50000002664
+Total Steps:  122188 Episode:  205 Reward:  636.49999999999 Episode TimeSteps:  750 Sand Penalty:  57378.5 Distance Penalty:  84700 Boundary Penalty:  740 Goal Reward:  805 Goal Penalty:  12216.500000026912
+Reached the target: x: %s, y: %s 194.97781665344453 123.65130679667402
+Total Steps:  122938 Episode:  206 Reward:  252.10000000000016 Episode TimeSteps:  750 Sand Penalty:  57736.5 Distance Penalty:  85320 Boundary Penalty:  740 Goal Reward:  840 Goal Penalty:  12291.400000027184
+Total Steps:  123688 Episode:  207 Reward:  -244.99999999999665 Episode TimeSteps:  750 Sand Penalty:  58106.5 Distance Penalty:  85520 Boundary Penalty:  740 Goal Reward:  840 Goal Penalty:  12366.400000027457
+Total Steps:  124438 Episode:  208 Reward:  -244.99999999999676 Episode TimeSteps:  750 Sand Penalty:  58476.5 Distance Penalty:  85720 Boundary Penalty:  740 Goal Reward:  840 Goal Penalty:  12441.40000002773
+Total Steps:  125188 Episode:  209 Reward:  5013.500000000025 Episode TimeSteps:  750 Sand Penalty:  58718.0 Distance Penalty:  91040 Boundary Penalty:  740 Goal Reward:  840 Goal Penalty:  12516.400000028003
+Reached the target: x: %s, y: %s 994.9244905011311 375.6492271891417
+Total Steps:  125672 Episode:  210 Reward:  413.1999999999923 Episode TimeSteps:  484 Sand Penalty:  58941.5 Distance Penalty:  91600 Boundary Penalty:  740 Goal Reward:  875 Goal Penalty:  12564.700000028179
+Total Steps:  126422 Episode:  211 Reward:  -244.99999999999673 Episode TimeSteps:  750 Sand Penalty:  59311.5 Distance Penalty:  91800 Boundary Penalty:  740 Goal Reward:  875 Goal Penalty:  12639.700000028452
+Total Steps:  127172 Episode:  212 Reward:  339.49999999999454 Episode TimeSteps:  750 Sand Penalty:  59667.0 Distance Penalty:  92560 Boundary Penalty:  740 Goal Reward:  875 Goal Penalty:  12714.700000028724
+Total Steps:  127922 Episode:  213 Reward:  554.4999999999914 Episode TimeSteps:  750 Sand Penalty:  60017.5 Distance Penalty:  93540 Boundary Penalty:  740 Goal Reward:  875 Goal Penalty:  12789.700000028997
+Total Steps:  128672 Episode:  214 Reward:  861.9999999999917 Episode TimeSteps:  750 Sand Penalty:  60360.5 Distance Penalty:  94820 Boundary Penalty:  740 Goal Reward:  875 Goal Penalty:  12864.70000002927
+Reached the target: x: %s, y: %s 184.6121870554969 118.37596110701229
+Total Steps:  129422 Episode:  215 Reward:  1399.6000000000108 Episode TimeSteps:  750 Sand Penalty:  60691.0 Distance Penalty:  96580 Boundary Penalty:  740 Goal Reward:  910 Goal Penalty:  12939.600000029543
+Reached the target: x: %s, y: %s 1024.400503243763 395.47925106131447
+Total Steps:  130155 Episode:  216 Reward:  189.80000000000314 Episode TimeSteps:  733 Sand Penalty:  61043.0 Distance Penalty:  97160 Boundary Penalty:  740 Goal Reward:  945 Goal Penalty:  13012.800000029809
+Total Steps:  130905 Episode:  217 Reward:  -39.999999999998984 Episode TimeSteps:  750 Sand Penalty:  61408.0 Distance Penalty:  97560 Boundary Penalty:  740 Goal Reward:  945 Goal Penalty:  13087.800000030082
+Reached the target: x: %s, y: %s 179.18607565393302 111.35789561927227
+Total Steps:  131655 Episode:  218 Reward:  1133.6000000000322 Episode TimeSteps:  750 Sand Penalty:  61744.5 Distance Penalty:  99040 Boundary Penalty:  740 Goal Reward:  980 Goal Penalty:  13162.700000030354
+Total Steps:  132405 Episode:  219 Reward:  800.4999999999891 Episode TimeSteps:  750 Sand Penalty:  62089.0 Distance Penalty:  100260 Boundary Penalty:  740 Goal Reward:  980 Goal Penalty:  13237.700000030627
+Reached the target: x: %s, y: %s 983.0472088903874 381.9188439301664
+Total Steps:  132869 Episode:  220 Reward:  -243.2999999999991 Episode TimeSteps:  464 Sand Penalty:  62321.0 Distance Penalty:  100260 Boundary Penalty:  740 Goal Reward:  1015 Goal Penalty:  13284.000000030795
+Total Steps:  133619 Episode:  221 Reward:  474.9999999999834 Episode TimeSteps:  750 Sand Penalty:  62671.0 Distance Penalty:  101060 Boundary Penalty:  740 Goal Reward:  1015 Goal Penalty:  13359.000000031068
+Total Steps:  134369 Episode:  222 Reward:  103.50000000000031 Episode TimeSteps:  750 Sand Penalty:  63032.5 Distance Penalty:  101600 Boundary Penalty:  740 Goal Reward:  1015 Goal Penalty:  13434.000000031341
+Reached the target: x: %s, y: %s 197.80269707355754 122.99801474622038
+Total Steps:  135119 Episode:  223 Reward:  550.0999999999946 Episode TimeSteps:  750 Sand Penalty:  63382.5 Distance Penalty:  102480 Boundary Penalty:  740 Goal Reward:  1050 Goal Penalty:  13508.900000031614
+Reached the target: x: %s, y: %s 1024.7822354574203 397.2740867366673
+Total Steps:  135300 Episode:  224 Reward:  563.4999999999964 Episode TimeSteps:  181 Sand Penalty:  63456.0 Distance Penalty:  103040 Boundary Penalty:  740 Goal Reward:  1085 Goal Penalty:  13526.90000003168
+Total Steps:  136050 Episode:  225 Reward:  349.50000000000085 Episode TimeSteps:  750 Sand Penalty:  63811.5 Distance Penalty:  103820 Boundary Penalty:  740 Goal Reward:  1085 Goal Penalty:  13601.900000031952
+Total Steps:  136800 Episode:  226 Reward:  185.49999999999886 Episode TimeSteps:  750 Sand Penalty:  64171.0 Distance Penalty:  104440 Boundary Penalty:  740 Goal Reward:  1085 Goal Penalty:  13676.900000032225
+Total Steps:  137550 Episode:  227 Reward:  -40.00000000000126 Episode TimeSteps:  750 Sand Penalty:  64536.0 Distance Penalty:  104840 Boundary Penalty:  740 Goal Reward:  1085 Goal Penalty:  13751.900000032498
+Total Steps:  138300 Episode:  228 Reward:  369.9999999999883 Episode TimeSteps:  750 Sand Penalty:  64891.0 Distance Penalty:  105640 Boundary Penalty:  740 Goal Reward:  1085 Goal Penalty:  13826.90000003277
+Total Steps:  139050 Episode:  229 Reward:  -60.5000000000002 Episode TimeSteps:  750 Sand Penalty:  65256.5 Distance Penalty:  106020 Boundary Penalty:  740 Goal Reward:  1085 Goal Penalty:  13901.900000033043
+Total Steps:  139800 Episode:  230 Reward:  165.00000000000173 Episode TimeSteps:  750 Sand Penalty:  65616.5 Distance Penalty:  106620 Boundary Penalty:  740 Goal Reward:  1085 Goal Penalty:  13976.900000033316
+Total Steps:  140550 Episode:  231 Reward:  -19.499999999998412 Episode TimeSteps:  750 Sand Penalty:  65981.0 Distance Penalty:  107040 Boundary Penalty:  740 Goal Reward:  1085 Goal Penalty:  14051.90000003359
+Total Steps:  141300 Episode:  232 Reward:  493.00000000000153 Episode TimeSteps:  750 Sand Penalty:  66333.0 Distance Penalty:  107960 Boundary Penalty:  740 Goal Reward:  1085 Goal Penalty:  14126.900000033862
+Total Steps:  142050 Episode:  233 Reward:  1395.0000000000316 Episode TimeSteps:  750 Sand Penalty:  66663.0 Distance Penalty:  109760 Boundary Penalty:  740 Goal Reward:  1085 Goal Penalty:  14201.900000034135
+Total Steps:  142800 Episode:  234 Reward:  -39.99999999999822 Episode TimeSteps:  750 Sand Penalty:  67028.0 Distance Penalty:  110160 Boundary Penalty:  740 Goal Reward:  1085 Goal Penalty:  14276.900000034408
+Total Steps:  143550 Episode:  235 Reward:  -398.50000000000375 Episode TimeSteps:  750 Sand Penalty:  67401.5 Distance Penalty:  110200 Boundary Penalty:  740 Goal Reward:  1085 Goal Penalty:  14351.90000003468
+Reached the target: x: %s, y: %s 177.30914400765894 105.2628130460759
+Total Steps:  144300 Episode:  236 Reward:  784.5999999999881 Episode TimeSteps:  750 Sand Penalty:  67747.0 Distance Penalty:  111360 Boundary Penalty:  740 Goal Reward:  1120 Goal Penalty:  14426.800000034953
+Reached the target: x: %s, y: %s 976.4275692468169 393.6637959384224
+Total Steps:  144505 Episode:  237 Reward:  629.6000000000001 Episode TimeSteps:  205 Sand Penalty:  67832.0 Distance Penalty:  112060 Boundary Penalty:  740 Goal Reward:  1155 Goal Penalty:  14447.200000035027
+Reached the target: x: %s, y: %s 219.47462642329708 112.91103166000788
+Total Steps:  145255 Episode:  238 Reward:  509.599999999993 Episode TimeSteps:  750 Sand Penalty:  68182.5 Distance Penalty:  112880 Boundary Penalty:  740 Goal Reward:  1190 Goal Penalty:  14522.1000000353
+Reached the target: x: %s, y: %s 983.9590335040475 381.0841208312885
+Total Steps:  146005 Episode:  239 Reward:  -209.8999999999977 Episode TimeSteps:  750 Sand Penalty:  68552.5 Distance Penalty:  113080 Boundary Penalty:  740 Goal Reward:  1225 Goal Penalty:  14597.000000035572
+Reached the target: x: %s, y: %s 205.79033204992183 123.72835503140432
+Total Steps:  146755 Episode:  240 Reward:  653.0999999999989 Episode TimeSteps:  750 Sand Penalty:  68899.5 Distance Penalty:  114040 Boundary Penalty:  740 Goal Reward:  1260 Goal Penalty:  14671.900000035845
+Total Steps:  147505 Episode:  241 Reward:  533.9999999999956 Episode TimeSteps:  750 Sand Penalty:  69250.5 Distance Penalty:  115000 Boundary Penalty:  740 Goal Reward:  1260 Goal Penalty:  14746.900000036117
+Reached the target: x: %s, y: %s 1010.596522180765 422.461004947889
+Total Steps:  148083 Episode:  242 Reward:  991.7999999999965 Episode TimeSteps:  578 Sand Penalty:  69506.0 Distance Penalty:  116200 Boundary Penalty:  740 Goal Reward:  1295 Goal Penalty:  14804.600000036327
+Total Steps:  148833 Episode:  243 Reward:  390.49999999998676 Episode TimeSteps:  750 Sand Penalty:  69860.5 Distance Penalty:  117020 Boundary Penalty:  740 Goal Reward:  1295 Goal Penalty:  14879.6000000366
+Total Steps:  149583 Episode:  244 Reward:  1.000000000002252 Episode TimeSteps:  750 Sand Penalty:  70224.5 Distance Penalty:  117460 Boundary Penalty:  740 Goal Reward:  1295 Goal Penalty:  14954.600000036873
+Total Steps:  150333 Episode:  245 Reward:  -39.99999999999813 Episode TimeSteps:  750 Sand Penalty:  70589.5 Distance Penalty:  117860 Boundary Penalty:  740 Goal Reward:  1295 Goal Penalty:  15029.600000037146
+Total Steps:  151083 Episode:  246 Reward:  185.50000000000261 Episode TimeSteps:  750 Sand Penalty:  70949.0 Distance Penalty:  118480 Boundary Penalty:  740 Goal Reward:  1295 Goal Penalty:  15104.600000037419
+Total Steps:  151833 Episode:  247 Reward:  -39.9999999999989 Episode TimeSteps:  750 Sand Penalty:  71314.0 Distance Penalty:  118880 Boundary Penalty:  740 Goal Reward:  1295 Goal Penalty:  15179.600000037692
+Total Steps:  152583 Episode:  248 Reward:  759.4999999999856 Episode TimeSteps:  750 Sand Penalty:  71659.5 Distance Penalty:  120060 Boundary Penalty:  740 Goal Reward:  1295 Goal Penalty:  15254.600000037964
+Reached the target: x: %s, y: %s 175.92430393931284 93.45119591668387
+Total Steps:  153333 Episode:  249 Reward:  1382.100000000042 Episode TimeSteps:  750 Sand Penalty:  71987.5 Distance Penalty:  121680 Boundary Penalty:  740 Goal Reward:  1330 Goal Penalty:  15329.500000038237
+Reached the target: x: %s, y: %s 1009.5520300674086 377.15351107378876
+Total Steps:  153623 Episode:  250 Reward:  66.10000000000049 Episode TimeSteps:  290 Sand Penalty:  72127.5 Distance Penalty:  121880 Boundary Penalty:  740 Goal Reward:  1365 Goal Penalty:  15358.400000038342
+Total Steps:  154373 Episode:  251 Reward:  1908.0000000000625 Episode TimeSteps:  750 Sand Penalty:  72444.5 Distance Penalty:  124160 Boundary Penalty:  740 Goal Reward:  1365 Goal Penalty:  15433.400000038615
+Total Steps:  155123 Episode:  252 Reward:  -450.0000000000056 Episode TimeSteps:  750 Sand Penalty:  72819.5 Distance Penalty:  124160 Boundary Penalty:  740 Goal Reward:  1365 Goal Penalty:  15508.400000038888
+Total Steps:  155873 Episode:  253 Reward:  626.4999999999907 Episode TimeSteps:  750 Sand Penalty:  73168.0 Distance Penalty:  125200 Boundary Penalty:  740 Goal Reward:  1365 Goal Penalty:  15583.40000003916
+Total Steps:  156623 Episode:  254 Reward:  841.4999999999951 Episode TimeSteps:  750 Sand Penalty:  73511.5 Distance Penalty:  126460 Boundary Penalty:  740 Goal Reward:  1365 Goal Penalty:  15658.400000039434
+Total Steps:  157373 Episode:  255 Reward:  62.50000000000205 Episode TimeSteps:  750 Sand Penalty:  73874.0 Distance Penalty:  126960 Boundary Penalty:  740 Goal Reward:  1365 Goal Penalty:  15733.400000039706
+Reached the target: x: %s, y: %s 212.086690284284 78.40449704946063
+Total Steps:  158123 Episode:  256 Reward:  958.5999999999954 Episode TimeSteps:  750 Sand Penalty:  74215.5 Distance Penalty:  128300 Boundary Penalty:  740 Goal Reward:  1400 Goal Penalty:  15808.300000039979
+Reached the target: x: %s, y: %s 985.2940052492123 379.99595908205305
+Total Steps:  158335 Episode:  257 Reward:  112.90000000000114 Episode TimeSteps:  212 Sand Penalty:  74316.5 Distance Penalty:  128500 Boundary Penalty:  740 Goal Reward:  1435 Goal Penalty:  15829.400000040056
+Total Steps:  159085 Episode:  258 Reward:  1.0000000000022093 Episode TimeSteps:  750 Sand Penalty:  74680.5 Distance Penalty:  128940 Boundary Penalty:  740 Goal Reward:  1435 Goal Penalty:  15904.400000040328
+Total Steps:  159835 Episode:  259 Reward:  1344.0000000000628 Episode TimeSteps:  750 Sand Penalty:  75011.5 Distance Penalty:  130680 Boundary Penalty:  740 Goal Reward:  1435 Goal Penalty:  15979.400000040601
+Reached the target: x: %s, y: %s 224.84806657699608 99.53123244544649
+Total Steps:  160585 Episode:  260 Reward:  441.0999999999909 Episode TimeSteps:  750 Sand Penalty:  75360.5 Distance Penalty:  131300 Boundary Penalty:  740 Goal Reward:  1470 Goal Penalty:  16054.300000040874
+Total Steps:  161335 Episode:  261 Reward:  902.9999999999837 Episode TimeSteps:  750 Sand Penalty:  75702.5 Distance Penalty:  132620 Boundary Penalty:  740 Goal Reward:  1470 Goal Penalty:  16129.300000041147
+Total Steps:  162085 Episode:  262 Reward:  103.50000000000284 Episode TimeSteps:  750 Sand Penalty:  76064.0 Distance Penalty:  133160 Boundary Penalty:  740 Goal Reward:  1470 Goal Penalty:  16204.30000004142
+Reached the target: x: %s, y: %s 1024.2477625611298 395.9501035939854
+Total Steps:  162464 Episode:  263 Reward:  217.70000000000118 Episode TimeSteps:  379 Sand Penalty:  76243.5 Distance Penalty:  133560 Boundary Penalty:  740 Goal Reward:  1505 Goal Penalty:  16242.100000041557
+Total Steps:  163214 Episode:  264 Reward:  964.5000000000055 Episode TimeSteps:  750 Sand Penalty:  76584.0 Distance Penalty:  134940 Boundary Penalty:  740 Goal Reward:  1505 Goal Penalty:  16317.10000004183
+Reached the target: x: %s, y: %s 182.08069515863193 116.48374589187465
+Total Steps:  163964 Episode:  265 Reward:  518.1000000000015 Episode TimeSteps:  750 Sand Penalty:  76936.0 Distance Penalty:  135840 Boundary Penalty:  740 Goal Reward:  1540 Goal Penalty:  16392.000000041957
+Total Steps:  164714 Episode:  266 Reward:  636.5000000000007 Episode TimeSteps:  750 Sand Penalty:  77284.5 Distance Penalty:  136900 Boundary Penalty:  740 Goal Reward:  1540 Goal Penalty:  16467.000000040865
+Total Steps:  165464 Episode:  267 Reward:  62.500000000002764 Episode TimeSteps:  750 Sand Penalty:  77647.0 Distance Penalty:  137400 Boundary Penalty:  740 Goal Reward:  1540 Goal Penalty:  16542.000000039774
+Total Steps:  166214 Episode:  268 Reward:  206.00000000000165 Episode TimeSteps:  750 Sand Penalty:  78006.0 Distance Penalty:  138040 Boundary Penalty:  740 Goal Reward:  1540 Goal Penalty:  16617.000000038683
+Reached the target: x: %s, y: %s 1007.221224011512 376.2498096583485
+Total Steps:  166624 Episode:  269 Reward:  322.099999999997 Episode TimeSteps:  410 Sand Penalty:  78198.0 Distance Penalty:  138560 Boundary Penalty:  740 Goal Reward:  1575 Goal Penalty:  16657.900000038087
+Reached the target: x: %s, y: %s 224.1017103092675 95.35422040829431
+Total Steps:  167374 Episode:  270 Reward:  919.0999999999874 Episode TimeSteps:  750 Sand Penalty:  78539.0 Distance Penalty:  139800 Boundary Penalty:  740 Goal Reward:  1610 Goal Penalty:  16732.800000036998
+Total Steps:  168124 Episode:  271 Reward:  -39.9999999999987 Episode TimeSteps:  750 Sand Penalty:  78904.0 Distance Penalty:  140200 Boundary Penalty:  740 Goal Reward:  1610 Goal Penalty:  16807.800000035906
+Total Steps:  168874 Episode:  272 Reward:  427.4999999999844 Episode TimeSteps:  750 Sand Penalty:  79251.5 Distance Penalty:  140800 Boundary Penalty:  740 Goal Reward:  1610 Goal Penalty:  16882.800000034815
+Total Steps:  169624 Episode:  273 Reward:  472.4999999999874 Episode TimeSteps:  750 Sand Penalty:  79604.0 Distance Penalty:  141700 Boundary Penalty:  740 Goal Reward:  1610 Goal Penalty:  16957.800000033723
+Total Steps:  170374 Episode:  274 Reward:  554.4999999999965 Episode TimeSteps:  750 Sand Penalty:  79954.5 Distance Penalty:  142680 Boundary Penalty:  740 Goal Reward:  1610 Goal Penalty:  17032.800000032632
+Total Steps:  171124 Episode:  275 Reward:  800.4999999999854 Episode TimeSteps:  750 Sand Penalty:  80299.0 Distance Penalty:  143900 Boundary Penalty:  740 Goal Reward:  1610 Goal Penalty:  17107.80000003154
+Total Steps:  171874 Episode:  276 Reward:  205.99999999999875 Episode TimeSteps:  750 Sand Penalty:  80658.0 Distance Penalty:  144540 Boundary Penalty:  740 Goal Reward:  1610 Goal Penalty:  17182.80000003045
+Reached the target: x: %s, y: %s 1020.2909270220546 385.7006050441211
+Total Steps:  172379 Episode:  277 Reward:  142.10000000000156 Episode TimeSteps:  505 Sand Penalty:  80900.5 Distance Penalty:  144940 Boundary Penalty:  740 Goal Reward:  1645 Goal Penalty:  17233.200000029716
+Total Steps:  173129 Episode:  278 Reward:  902.9999999999878 Episode TimeSteps:  750 Sand Penalty:  81242.5 Distance Penalty:  146260 Boundary Penalty:  740 Goal Reward:  1645 Goal Penalty:  17308.200000028624
+Total Steps:  173879 Episode:  279 Reward:  267.4999999999895 Episode TimeSteps:  750 Sand Penalty:  81600.0 Distance Penalty:  146960 Boundary Penalty:  740 Goal Reward:  1645 Goal Penalty:  17383.200000027533
+Total Steps:  174629 Episode:  280 Reward:  390.4999999999979 Episode TimeSteps:  750 Sand Penalty:  81954.5 Distance Penalty:  147780 Boundary Penalty:  740 Goal Reward:  1645 Goal Penalty:  17458.20000002644
+Total Steps:  175379 Episode:  281 Reward:  -245.00000000000338 Episode TimeSteps:  750 Sand Penalty:  82324.5 Distance Penalty:  147980 Boundary Penalty:  740 Goal Reward:  1645 Goal Penalty:  17533.20000002535
+Reached the target: x: %s, y: %s 194.54232229538405 123.70115461254957
+Total Steps:  176129 Episode:  282 Reward:  518.0999999999921 Episode TimeSteps:  750 Sand Penalty:  82676.5 Distance Penalty:  148880 Boundary Penalty:  740 Goal Reward:  1680 Goal Penalty:  17608.10000002426
+Total Steps:  176879 Episode:  283 Reward:  738.9999999999892 Episode TimeSteps:  750 Sand Penalty:  83022.5 Distance Penalty:  150040 Boundary Penalty:  740 Goal Reward:  1680 Goal Penalty:  17683.10000002317
+Total Steps:  177629 Episode:  284 Reward:  882.4999999999908 Episode TimeSteps:  750 Sand Penalty:  83365.0 Distance Penalty:  151340 Boundary Penalty:  740 Goal Reward:  1680 Goal Penalty:  17758.100000022077
+Total Steps:  178379 Episode:  285 Reward:  -29.499999999998916 Episode TimeSteps:  750 Sand Penalty:  83729.5 Distance Penalty:  151740 Boundary Penalty:  740 Goal Reward:  1680 Goal Penalty:  17833.100000020986
+Reached the target: x: %s, y: %s 985.939554376762 379.6877704017508
+Total Steps:  179052 Episode:  286 Reward:  41.300000000001376 Episode TimeSteps:  673 Sand Penalty:  84056.0 Distance Penalty:  152140 Boundary Penalty:  740 Goal Reward:  1715 Goal Penalty:  17900.300000020008
+Total Steps:  179716 Episode:  287 Reward:  -408.4000000000037 Episode TimeSteps:  664 Sand Penalty:  84388.0 Distance Penalty:  152140 Boundary Penalty:  750 Goal Reward:  1715 Goal Penalty:  17966.700000019042
+Reached the target: x: %s, y: %s 222.84878516580468 109.69486121491889
+Total Steps:  180466 Episode:  288 Reward:  1184.0999999999929 Episode TimeSteps:  750 Sand Penalty:  84724.0 Distance Penalty:  153700 Boundary Penalty:  750 Goal Reward:  1750 Goal Penalty:  18041.600000017952
+Total Steps:  181211 Episode:  289 Reward:  280.99999999999795 Episode TimeSteps:  745 Sand Penalty:  85078.5 Distance Penalty:  154420 Boundary Penalty:  760 Goal Reward:  1750 Goal Penalty:  18116.100000016868
+Reached the target: x: %s, y: %s 1021.9592661748902 388.97464804915165
+Total Steps:  181504 Episode:  290 Reward:  269.2999999999989 Episode TimeSteps:  293 Sand Penalty:  85215.0 Distance Penalty:  154820 Boundary Penalty:  760 Goal Reward:  1785 Goal Penalty:  18145.300000016443
+Reached the target: x: %s, y: %s 224.4544173826007 96.21077701541833
+Total Steps:  182254 Episode:  291 Reward:  365.59999999999184 Episode TimeSteps:  750 Sand Penalty:  85569.5 Distance Penalty:  155520 Boundary Penalty:  760 Goal Reward:  1820 Goal Penalty:  18220.200000015353
+Reached the target: x: %s, y: %s 1012.9935114454574 421.17480277037333
+Total Steps:  182513 Episode:  292 Reward:  -120.29999999999924 Episode TimeSteps:  259 Sand Penalty:  85699.0 Distance Penalty:  155520 Boundary Penalty:  760 Goal Reward:  1855 Goal Penalty:  18246.000000014978
+Total Steps:  183263 Episode:  293 Reward:  369.99999999998886 Episode TimeSteps:  750 Sand Penalty:  86054.0 Distance Penalty:  156320 Boundary Penalty:  760 Goal Reward:  1855 Goal Penalty:  18321.000000013886
+Total Steps:  184013 Episode:  294 Reward:  1354.0000000000502 Episode TimeSteps:  750 Sand Penalty:  86385.0 Distance Penalty:  158080 Boundary Penalty:  760 Goal Reward:  1855 Goal Penalty:  18396.000000012795
+Total Steps:  184763 Episode:  295 Reward:  636.4999999999865 Episode TimeSteps:  750 Sand Penalty:  86733.5 Distance Penalty:  159140 Boundary Penalty:  760 Goal Reward:  1855 Goal Penalty:  18471.000000011703
+Reached the target: x: %s, y: %s 224.4187987651672 104.12855526319457
+Total Steps:  185513 Episode:  296 Reward:  817.0999999999946 Episode TimeSteps:  750 Sand Penalty:  87076.5 Distance Penalty:  160260 Boundary Penalty:  760 Goal Reward:  1890 Goal Penalty:  18545.900000010613
+Reached the target: x: %s, y: %s 1023.7078688782256 403.5260133027219
+Total Steps:  186231 Episode:  297 Reward:  1756.800000000053 Episode TimeSteps:  718 Sand Penalty:  87383.0 Distance Penalty:  162360 Boundary Penalty:  760 Goal Reward:  1925 Goal Penalty:  18617.60000000957
+Reached the target: x: %s, y: %s 217.0717735247852 117.274886034111
+Total Steps:  186981 Episode:  298 Reward:  528.5999999999876 Episode TimeSteps:  750 Sand Penalty:  87734.5 Distance Penalty:  163260 Boundary Penalty:  760 Goal Reward:  1960 Goal Penalty:  18692.50000000848
+Total Steps:  187731 Episode:  299 Reward:  21.50000000000201 Episode TimeSteps:  750 Sand Penalty:  88098.0 Distance Penalty:  163720 Boundary Penalty:  760 Goal Reward:  1960 Goal Penalty:  18767.50000000739
+Total Steps:  188481 Episode:  300 Reward:  114.50000000000091 Episode TimeSteps:  750 Sand Penalty:  88458.5 Distance Penalty:  164240 Boundary Penalty:  760 Goal Reward:  1960 Goal Penalty:  18842.500000006297
+Total Steps:  189231 Episode:  301 Reward:  677.4999999999997 Episode TimeSteps:  750 Sand Penalty:  88806.0 Distance Penalty:  165340 Boundary Penalty:  760 Goal Reward:  1960 Goal Penalty:  18917.500000005206
+Reached the target: x: %s, y: %s 993.9014259704358 424.2307109050496
+Total Steps:  189735 Episode:  302 Reward:  163.2000000000019 Episode TimeSteps:  504 Sand Penalty:  89047.5 Distance Penalty:  165760 Boundary Penalty:  760 Goal Reward:  1995 Goal Penalty:  18967.800000004474
+Total Steps:  190485 Episode:  303 Reward:  390.4999999999942 Episode TimeSteps:  750 Sand Penalty:  89402.0 Distance Penalty:  166580 Boundary Penalty:  760 Goal Reward:  1995 Goal Penalty:  19042.800000003383
+Total Steps:  191235 Episode:  304 Reward:  205.99999999999693 Episode TimeSteps:  750 Sand Penalty:  89761.0 Distance Penalty:  167220 Boundary Penalty:  760 Goal Reward:  1995 Goal Penalty:  19117.80000000229
+Total Steps:  191985 Episode:  305 Reward:  656.9999999999956 Episode TimeSteps:  750 Sand Penalty:  90109.0 Distance Penalty:  168300 Boundary Penalty:  760 Goal Reward:  1995 Goal Penalty:  19192.8000000012
+Total Steps:  192735 Episode:  306 Reward:  -244.99999999999744 Episode TimeSteps:  750 Sand Penalty:  90479.0 Distance Penalty:  168500 Boundary Penalty:  760 Goal Reward:  1995 Goal Penalty:  19267.80000000011
+Total Steps:  193485 Episode:  307 Reward:  697.9999999999912 Episode TimeSteps:  750 Sand Penalty:  90826.0 Distance Penalty:  169620 Boundary Penalty:  760 Goal Reward:  1995 Goal Penalty:  19342.799999999017
+Total Steps:  194235 Episode:  308 Reward:  492.99999999998363 Episode TimeSteps:  750 Sand Penalty:  91178.0 Distance Penalty:  170540 Boundary Penalty:  760 Goal Reward:  1995 Goal Penalty:  19417.799999997926
+Total Steps:  194985 Episode:  309 Reward:  759.4999999999901 Episode TimeSteps:  750 Sand Penalty:  91523.5 Distance Penalty:  171720 Boundary Penalty:  760 Goal Reward:  1995 Goal Penalty:  19492.799999996834
+Reached the target: x: %s, y: %s 224.00763513101904 106.19055719176635
+Total Steps:  195735 Episode:  310 Reward:  611.6000000000015 Episode TimeSteps:  750 Sand Penalty:  91872.0 Distance Penalty:  172660 Boundary Penalty:  760 Goal Reward:  2030 Goal Penalty:  19567.699999995744
+Total Steps:  196485 Episode:  311 Reward:  1743.500000000004 Episode TimeSteps:  750 Sand Penalty:  92193.5 Distance Penalty:  174800 Boundary Penalty:  760 Goal Reward:  2030 Goal Penalty:  19642.699999994653
+Reached the target: x: %s, y: %s 1024.781584439503 400.30316158075345
+Total Steps:  196644 Episode:  312 Reward:  834.2 Episode TimeSteps:  159 Sand Penalty:  92248.5 Distance Penalty:  175560 Boundary Penalty:  760 Goal Reward:  2065 Goal Penalty:  19658.499999994423
+Reached the target: x: %s, y: %s 223.56155309141522 94.8222724219165
+Total Steps:  197394 Episode:  313 Reward:  971.5999999999879 Episode TimeSteps:  750 Sand Penalty:  92587.0 Distance Penalty:  176800 Boundary Penalty:  760 Goal Reward:  2100 Goal Penalty:  19733.399999993333
+Reached the target: x: %s, y: %s 1022.4300548200874 389.21513642195106
+Total Steps:  197556 Episode:  314 Reward:  421.3999999999972 Episode TimeSteps:  162 Sand Penalty:  92654.5 Distance Penalty:  177200 Boundary Penalty:  760 Goal Reward:  2135 Goal Penalty:  19749.4999999931
+Total Steps:  198306 Episode:  315 Reward:  349.499999999989 Episode TimeSteps:  750 Sand Penalty:  93010.0 Distance Penalty:  177980 Boundary Penalty:  760 Goal Reward:  2135 Goal Penalty:  19824.499999992007
+Total Steps:  199056 Episode:  316 Reward:  513.4999999999875 Episode TimeSteps:  750 Sand Penalty:  93361.5 Distance Penalty:  178920 Boundary Penalty:  760 Goal Reward:  2135 Goal Penalty:  19899.499999990916
+Reached the target: x: %s, y: %s 175.61195555495533 101.18290728118362
+Total Steps:  199806 Episode:  317 Reward:  272.1000000000005 Episode TimeSteps:  750 Sand Penalty:  93719.5 Distance Penalty:  179580 Boundary Penalty:  760 Goal Reward:  2170 Goal Penalty:  19974.399999989826
+Reached the target: x: %s, y: %s 975.1996046599146 397.2640584156061
+Total Steps:  199911 Episode:  318 Reward:  1243.1 Episode TimeSteps:  105 Sand Penalty:  93741.0 Distance Penalty:  180820 Boundary Penalty:  760 Goal Reward:  2205 Goal Penalty:  19984.799999989675
+Total Steps:  200661 Episode:  319 Reward:  739.9999999999839 Episode TimeSteps:  750 Sand Penalty:  94086.0 Distance Penalty:  181940 Boundary Penalty:  760 Goal Reward:  2205 Goal Penalty:  20059.799999988583
+Reached the target: x: %s, y: %s 182.43718140805308 116.40800846475052
+Total Steps:  201411 Episode:  320 Reward:  1174.100000000054 Episode TimeSteps:  750 Sand Penalty:  94422.0 Distance Penalty:  183480 Boundary Penalty:  760 Goal Reward:  2240 Goal Penalty:  20134.699999987493
+Total Steps:  202161 Episode:  321 Reward:  236.99999999999508 Episode TimeSteps:  750 Sand Penalty:  94780.0 Distance Penalty:  184140 Boundary Penalty:  760 Goal Reward:  2240 Goal Penalty:  20209.699999986402
+Total Steps:  202911 Episode:  322 Reward:  841.4999999999984 Episode TimeSteps:  750 Sand Penalty:  95123.5 Distance Penalty:  185400 Boundary Penalty:  760 Goal Reward:  2240 Goal Penalty:  20284.69999998531
+Reached the target: x: %s, y: %s 1014.7484154813548 420.04704057958224
+Total Steps:  203594 Episode:  323 Reward:  260.7999999999922 Episode TimeSteps:  683 Sand Penalty:  95449.5 Distance Penalty:  186020 Boundary Penalty:  760 Goal Reward:  2275 Goal Penalty:  20352.899999984318
+Total Steps:  204344 Episode:  324 Reward:  -450.0000000000056 Episode TimeSteps:  750 Sand Penalty:  95824.5 Distance Penalty:  186020 Boundary Penalty:  760 Goal Reward:  2275 Goal Penalty:  20427.899999983227
+Total Steps:  205094 Episode:  325 Reward:  595.4999999999861 Episode TimeSteps:  750 Sand Penalty:  96174.0 Distance Penalty:  187040 Boundary Penalty:  760 Goal Reward:  2275 Goal Penalty:  20502.899999982135
+Total Steps:  205844 Episode:  326 Reward:  1231.0000000000446 Episode TimeSteps:  750 Sand Penalty:  96508.0 Distance Penalty:  188680 Boundary Penalty:  760 Goal Reward:  2275 Goal Penalty:  20577.899999981044
+Total Steps:  206594 Episode:  327 Reward:  728.9999999999833 Episode TimeSteps:  750 Sand Penalty:  96854.0 Distance Penalty:  189820 Boundary Penalty:  760 Goal Reward:  2275 Goal Penalty:  20652.899999979953
+Total Steps:  207344 Episode:  328 Reward:  1067.000000000014 Episode TimeSteps:  750 Sand Penalty:  97192.0 Distance Penalty:  191300 Boundary Penalty:  760 Goal Reward:  2275 Goal Penalty:  20727.89999997886
+Reached the target: x: %s, y: %s 208.8311356689904 122.99122079399062
+Total Steps:  208094 Episode:  329 Reward:  386.09999999999883 Episode TimeSteps:  750 Sand Penalty:  97546.0 Distance Penalty:  192020 Boundary Penalty:  760 Goal Reward:  2310 Goal Penalty:  20802.79999997777
+Reached the target: x: %s, y: %s 984.7339161321379 419.2970806037572
+Total Steps:  208418 Episode:  330 Reward:  -159.29999999999887 Episode TimeSteps:  324 Sand Penalty:  97708.0 Distance Penalty:  192020 Boundary Penalty:  760 Goal Reward:  2345 Goal Penalty:  20835.0999999773
+Total Steps:  209168 Episode:  331 Reward:  533.9999999999836 Episode TimeSteps:  750 Sand Penalty:  98059.0 Distance Penalty:  192980 Boundary Penalty:  760 Goal Reward:  2345 Goal Penalty:  20910.09999997621
+Total Steps:  209918 Episode:  332 Reward:  1200.500000000048 Episode TimeSteps:  750 Sand Penalty:  98393.5 Distance Penalty:  194580 Boundary Penalty:  760 Goal Reward:  2345 Goal Penalty:  20985.09999997512
+Reached the target: x: %s, y: %s 223.2908057359114 108.75263595778252
+Total Steps:  210668 Episode:  333 Reward:  446.0999999999872 Episode TimeSteps:  750 Sand Penalty:  98747.5 Distance Penalty:  195420 Boundary Penalty:  760 Goal Reward:  2380 Goal Penalty:  21059.99999997403
+Reached the target: x: %s, y: %s 1020.2594268168317 385.38397366485594
+Total Steps:  211349 Episode:  334 Reward:  36.50000000000169 Episode TimeSteps:  681 Sand Penalty:  99078.0 Distance Penalty:  195820 Boundary Penalty:  760 Goal Reward:  2415 Goal Penalty:  21127.99999997304
+Reached the target: x: %s, y: %s 175.26747306741856 101.26274137135977
+Total Steps:  212099 Episode:  335 Reward:  743.5999999999896 Episode TimeSteps:  750 Sand Penalty:  99424.5 Distance Penalty:  196940 Boundary Penalty:  760 Goal Reward:  2450 Goal Penalty:  21202.89999997195
+Reached the target: x: %s, y: %s 976.124010296755 398.6725605728246
+Total Steps:  212703 Episode:  336 Reward:  1415.199999999998 Episode TimeSteps:  604 Sand Penalty:  99684.0 Distance Penalty:  198640 Boundary Penalty:  760 Goal Reward:  2485 Goal Penalty:  21263.19999997107
+Reached the target: x: %s, y: %s 223.45086815310373 108.16074932469172
+Total Steps:  213453 Episode:  337 Reward:  807.0999999999998 Episode TimeSteps:  750 Sand Penalty:  100027.0 Distance Penalty:  199740 Boundary Penalty:  760 Goal Reward:  2520 Goal Penalty:  21338.09999996998
+Reached the target: x: %s, y: %s 1019.914839117217 411.9917695847614
+Total Steps:  213651 Episode:  338 Reward:  367.29999999999984 Episode TimeSteps:  198 Sand Penalty:  100115.0 Distance Penalty:  200180 Boundary Penalty:  760 Goal Reward:  2555 Goal Penalty:  21357.799999969695
+Total Steps:  214401 Episode:  339 Reward:  483.00000000000045 Episode TimeSteps:  750 Sand Penalty:  100467.0 Distance Penalty:  201080 Boundary Penalty:  760 Goal Reward:  2555 Goal Penalty:  21432.799999968604
+Total Steps:  215151 Episode:  340 Reward:  759.4999999999905 Episode TimeSteps:  750 Sand Penalty:  100812.5 Distance Penalty:  202260 Boundary Penalty:  760 Goal Reward:  2555 Goal Penalty:  21507.799999967512
+Reached the target: x: %s, y: %s 223.5665401043246 101.76334414274079
+Total Steps:  215901 Episode:  341 Reward:  355.59999999998547 Episode TimeSteps:  750 Sand Penalty:  101167.0 Distance Penalty:  202940 Boundary Penalty:  760 Goal Reward:  2590 Goal Penalty:  21582.699999966422
+Reached the target: x: %s, y: %s 978.8281594622447 387.0092362810174
+Total Steps:  216072 Episode:  342 Reward:  -67.49999999999974 Episode TimeSteps:  171 Sand Penalty:  101252.5 Distance Penalty:  202940 Boundary Penalty:  760 Goal Reward:  2625 Goal Penalty:  21599.699999966175
+Total Steps:  216822 Episode:  343 Reward:  -234.50000000000225 Episode TimeSteps:  750 Sand Penalty:  101622.0 Distance Penalty:  203140 Boundary Penalty:  760 Goal Reward:  2625 Goal Penalty:  21674.699999965083
+Reached the target: x: %s, y: %s 215.19397147255214 118.74554082035044
+Total Steps:  217572 Episode:  344 Reward:  754.5999999999948 Episode TimeSteps:  750 Sand Penalty:  101967.5 Distance Penalty:  204240 Boundary Penalty:  760 Goal Reward:  2660 Goal Penalty:  21749.599999963993
+Total Steps:  218322 Episode:  345 Reward:  472.4999999999949 Episode TimeSteps:  750 Sand Penalty:  102320.0 Distance Penalty:  205140 Boundary Penalty:  760 Goal Reward:  2660 Goal Penalty:  21824.599999962902
+Reached the target: x: %s, y: %s 1022.3884693765403 389.9550120232294
+Total Steps:  218551 Episode:  346 Reward:  102.70000000000118 Episode TimeSteps:  229 Sand Penalty:  102429.5 Distance Penalty:  205340 Boundary Penalty:  760 Goal Reward:  2695 Goal Penalty:  21847.39999996257
+Total Steps:  219301 Episode:  347 Reward:  2153.5000000000387 Episode TimeSteps:  750 Sand Penalty:  102741.0 Distance Penalty:  207880 Boundary Penalty:  760 Goal Reward:  2695 Goal Penalty:  21922.39999996148
+Reached the target: x: %s, y: %s 203.77962446944912 123.84410317113583
+Total Steps:  220051 Episode:  348 Reward:  437.0999999999922 Episode TimeSteps:  750 Sand Penalty:  103094.0 Distance Penalty:  208660 Boundary Penalty:  760 Goal Reward:  2730 Goal Penalty:  21997.29999996039
+Reached the target: x: %s, y: %s 976.33794250955 407.8318169788585
+Total Steps:  220421 Episode:  349 Reward:  612.5999999999941 Episode TimeSteps:  370 Sand Penalty:  103259.5 Distance Penalty:  209440 Boundary Penalty:  760 Goal Reward:  2765 Goal Penalty:  22034.199999959852
+Reached the target: x: %s, y: %s 192.35051458580097 122.79002055539944
+Total Steps:  221171 Episode:  350 Reward:  2086.6000000000627 Episode TimeSteps:  750 Sand Penalty:  103573.0 Distance Penalty:  211860 Boundary Penalty:  760 Goal Reward:  2800 Goal Penalty:  22109.099999958762
+Total Steps:  221921 Episode:  351 Reward:  984.9999999999932 Episode TimeSteps:  750 Sand Penalty:  103913.0 Distance Penalty:  213260 Boundary Penalty:  760 Goal Reward:  2800 Goal Penalty:  22184.09999995767
+Reached the target: x: %s, y: %s 984.7507328275934 380.3490022181177
+Total Steps:  222564 Episode:  352 Reward:  438.79999999999177 Episode TimeSteps:  643 Sand Penalty:  104215.0 Distance Penalty:  214020 Boundary Penalty:  760 Goal Reward:  2835 Goal Penalty:  22248.299999956736
+Total Steps:  223314 Episode:  353 Reward:  -40.000000000001904 Episode TimeSteps:  750 Sand Penalty:  104580.0 Distance Penalty:  214420 Boundary Penalty:  760 Goal Reward:  2835 Goal Penalty:  22323.299999955645
+Total Steps:  224064 Episode:  354 Reward:  185.50000000000185 Episode TimeSteps:  750 Sand Penalty:  104939.5 Distance Penalty:  215040 Boundary Penalty:  760 Goal Reward:  2835 Goal Penalty:  22398.299999954554
+Total Steps:  224814 Episode:  355 Reward:  554.4999999999835 Episode TimeSteps:  750 Sand Penalty:  105290.0 Distance Penalty:  216020 Boundary Penalty:  760 Goal Reward:  2835 Goal Penalty:  22473.299999953462
+Total Steps:  225564 Episode:  356 Reward:  83.00000000000077 Episode TimeSteps:  750 Sand Penalty:  105652.0 Distance Penalty:  216540 Boundary Penalty:  760 Goal Reward:  2835 Goal Penalty:  22548.29999995237
+Reached the target: x: %s, y: %s 208.5508496786886 123.10622921188703
+Total Steps:  226314 Episode:  357 Reward:  283.6000000000018 Episode TimeSteps:  750 Sand Penalty:  106008.5 Distance Penalty:  217160 Boundary Penalty:  760 Goal Reward:  2870 Goal Penalty:  22623.19999995128
+Reached the target: x: %s, y: %s 1020.9978660579258 412.72538866917955
+Total Steps:  226834 Episode:  358 Reward:  686.5999999999991 Episode TimeSteps:  520 Sand Penalty:  106245.0 Distance Penalty:  218100 Boundary Penalty:  760 Goal Reward:  2905 Goal Penalty:  22675.099999950526
+Reached the target: x: %s, y: %s 200.3811228746117 124.78105872896418
+Total Steps:  227584 Episode:  359 Reward:  610.5999999999934 Episode TimeSteps:  750 Sand Penalty:  106594.5 Distance Penalty:  219080 Boundary Penalty:  760 Goal Reward:  2940 Goal Penalty:  22749.999999949436
+Total Steps:  228334 Episode:  360 Reward:  -19.499999999997087 Episode TimeSteps:  750 Sand Penalty:  106959.0 Distance Penalty:  219500 Boundary Penalty:  760 Goal Reward:  2940 Goal Penalty:  22824.999999948344
+Total Steps:  229084 Episode:  361 Reward:  1046.500000000035 Episode TimeSteps:  750 Sand Penalty:  107297.5 Distance Penalty:  220960 Boundary Penalty:  760 Goal Reward:  2940 Goal Penalty:  22899.999999947253
+Total Steps:  229834 Episode:  362 Reward:  892.999999999999 Episode TimeSteps:  750 Sand Penalty:  107639.5 Distance Penalty:  222260 Boundary Penalty:  760 Goal Reward:  2940 Goal Penalty:  22974.99999994616
+Reached the target: x: %s, y: %s 986.5685566519404 378.94712548732304
+Total Steps:  230345 Episode:  363 Reward:  363.9999999999957 Episode TimeSteps:  511 Sand Penalty:  107879.5 Distance Penalty:  222880 Boundary Penalty:  760 Goal Reward:  2975 Goal Penalty:  23025.99999994542
+Total Steps:  231095 Episode:  364 Reward:  165.00000000000006 Episode TimeSteps:  750 Sand Penalty:  108239.5 Distance Penalty:  223480 Boundary Penalty:  760 Goal Reward:  2975 Goal Penalty:  23100.999999944328
+Total Steps:  231845 Episode:  365 Reward:  390.49999999999085 Episode TimeSteps:  750 Sand Penalty:  108594.0 Distance Penalty:  224300 Boundary Penalty:  760 Goal Reward:  2975 Goal Penalty:  23175.999999943237
+Total Steps:  232595 Episode:  366 Reward:  759.4999999999948 Episode TimeSteps:  750 Sand Penalty:  108939.5 Distance Penalty:  225480 Boundary Penalty:  760 Goal Reward:  2975 Goal Penalty:  23250.999999942145
+Total Steps:  233345 Episode:  367 Reward:  -19.499999999998177 Episode TimeSteps:  750 Sand Penalty:  109304.0 Distance Penalty:  225900 Boundary Penalty:  760 Goal Reward:  2975 Goal Penalty:  23325.999999941054
+Total Steps:  234095 Episode:  368 Reward:  -39.999999999998614 Episode TimeSteps:  750 Sand Penalty:  109669.0 Distance Penalty:  226300 Boundary Penalty:  760 Goal Reward:  2975 Goal Penalty:  23400.999999939962
+Total Steps:  234845 Episode:  369 Reward:  800.4999999999885 Episode TimeSteps:  750 Sand Penalty:  110013.5 Distance Penalty:  227520 Boundary Penalty:  760 Goal Reward:  2975 Goal Penalty:  23475.99999993887
+Total Steps:  235595 Episode:  370 Reward:  1733.5000000000448 Episode TimeSteps:  750 Sand Penalty:  110335.0 Distance Penalty:  229640 Boundary Penalty:  760 Goal Reward:  2975 Goal Penalty:  23550.99999993778
+Total Steps:  236345 Episode:  371 Reward:  636.499999999986 Episode TimeSteps:  750 Sand Penalty:  110683.5 Distance Penalty:  230700 Boundary Penalty:  760 Goal Reward:  2975 Goal Penalty:  23625.99999993669
+Total Steps:  237095 Episode:  372 Reward:  2481.5000000000123 Episode TimeSteps:  750 Sand Penalty:  110987.0 Distance Penalty:  233560 Boundary Penalty:  760 Goal Reward:  2975 Goal Penalty:  23700.999999935597
+Total Steps:  237716 Episode:  373 Reward:  1718.9000000000176 Episode TimeSteps:  621 Sand Penalty:  111246.0 Distance Penalty:  235600 Boundary Penalty:  770 Goal Reward:  2975 Goal Penalty:  23763.099999934693
+Reached the target: x: %s, y: %s 223.43208368626188 101.26367949517493
+Total Steps:  238466 Episode:  374 Reward:  459.59999999998945 Episode TimeSteps:  750 Sand Penalty:  111596.5 Distance Penalty:  236320 Boundary Penalty:  770 Goal Reward:  3010 Goal Penalty:  23837.999999933603
+Reached the target: x: %s, y: %s 977.4698127328121 389.4191298358287
+Total Steps:  239062 Episode:  375 Reward:  87.50000000000236 Episode TimeSteps:  596 Sand Penalty:  111884.5 Distance Penalty:  236720 Boundary Penalty:  770 Goal Reward:  3045 Goal Penalty:  23897.499999932737
+Reached the target: x: %s, y: %s 222.46175284940054 110.00877515942376
+Total Steps:  239812 Episode:  376 Reward:  241.10000000000147 Episode TimeSteps:  750 Sand Penalty:  112243.5 Distance Penalty:  237360 Boundary Penalty:  770 Goal Reward:  3080 Goal Penalty:  23972.399999931647

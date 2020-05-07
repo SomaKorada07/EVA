@@ -1,0 +1,1 @@
+TD3_0_3577_78_actor.pth - best in terms of episode reward. More on roads but not 100% yet! WORKS BEST SO FAR.

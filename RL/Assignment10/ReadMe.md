@@ -4,6 +4,8 @@
 
 To make a car learn to drive on the roads of a map (custom environment) using **TD3** architecture.
 
+###  Video - https://youtu.be/GSFACnFGRfM
+
 ## Approach taken
 
 ### Following were done even before implementing Assignment 10
@@ -42,9 +44,9 @@ To make a car learn to drive on the roads of a map (custom environment) using **
       3. Reward for the action taken based on the "Distance"
       4. Action taken
       5. Done (defined it to True when the car hit the walls or when it reached target or when the episode was completed)
-3. After Step 2 was completed, improvised the image by ***embedding the car*** into it taking its orientation into consideration, but the image of the car was surrounded by a rectangle around it! Still went ahead with the same Replay Buffer and same parameters. Modified parameters were as below:
-   1.  Input to Actor - Cropped Image along with car considering its orientation
-   2. State - Cropped image of size 160x160 map along with car considering its orientation but reduced to 32x32 for the CNN.
+3. After Step 2 was completed, improvised the image by ***embedding the car*** into it taking its angle into consideration, but the image of the car was surrounded by a rectangle around it! Still went ahead with the same Replay Buffer and same parameters. Modified parameters were as below:
+   1.  Input to Actor - Cropped Image along with car considering its angle
+   2. State - Cropped image of size 160x160 map along with car considering its angle but reduced to 32x32 for the CNN.
    3. Replay Buffer
       1. State (cropped image without car)
       2. Next State (cropped image from sand image with the car's new position based on the action taken)
@@ -52,8 +54,8 @@ To make a car learn to drive on the roads of a map (custom environment) using **
       4. Action taken
       5. Done (defined it to True when the car hit the walls or when it reached target or when the episode was completed)
 4. ***Added* "*Distance*"** parameter as an additional attribute to Actor network. Modified parameters were as below:
-   1. Input to Actor - Distance and Cropped Image along with car considering its orientation
-   2. State - Cropped image of size 160x160 map along with car considering its orientation but reduced to 32x32 for the CNN.
+   1. Input to Actor - Distance and Cropped Image along with car considering its angle
+   2. State - Cropped image of size 160x160 map along with car considering its angle but reduced to 32x32 for the CNN.
    3. Replay Buffer
       1. State (cropped image without car)
       2. Next State (cropped image from sand image with the car's new position based on the action taken)
@@ -75,18 +77,14 @@ To make a car learn to drive on the roads of a map (custom environment) using **
       7. Reward for the action taken based on the "Distance"
       8. Action taken
       9. Done (defined it to True when the car hit the walls or when it reached target or when the episode was completed)
-6. Improvised the ***Rewards strategy***. As I observed that when car gets stuck at the walls, it was not able to come out of that state, I am using high negative rewards in this case. Also, as car mostly goes on sand and less on roads, I have made positive reward for going on road to be much higher than the negative reward for going on sand.
-   1. Reward for going on sand = -0.5
-   2. Reward for going on road = 10
-   3. Reward for boundary case = -700
-   4. Reward for reaching targets = 100
+6. Improvised the ***Rewards strategy***. As I observed that when car gets stuck at the walls, it was not able to come out of that state, I am using high negative rewards in this case. As car mostly goes on sand and less on roads, I have made positive reward for going on road to be higher than the negative reward for going on sand. Also, ending the episode and giving penalty when the car stays on sand for certain number of timesteps continuously.
 7. Also, to avoid the car from going to boundary, I am resetting the car position in such a case and giving high negative rewards (same as boundary case rewards). I did not implement any padding to sand image.
 8. Every time Done becomes true, I am ***resetting the car's position randomly***.
 9. Saving the models when it is Done (=True) and when Episode reward is positive.
 10. Implemented the inferencing using best positive episode reward models.
 
-### Pending Items
+### Things tried
 
-1. Code needs to be structured. Lot of repetitive code is there.
-2. Hyperparameter tuning of "max_action".
-3. While writing this, I am wondering if I should change my action_dim to 3 (currently it is set to 1) as I am also considering Distance and Orientation as additional attributes. Need to think through this.
+1. Tried using 3 states - Cropped Image rotated with car's angle, [+Orientation, -Orientation] and Distance. But using all the 3 states only resulted in my car going all over the map. It was not traversing between the targets too.
+2. Tried using only 2 states - Cropped Image rotated with car's angle and [+Orientation, -Orientation]. This resulted in car learning to traverse between the 2 targets. It could not learn to stay on road.
+3. Tuned Learning Rate hyperparameter to get out of rotation issue.

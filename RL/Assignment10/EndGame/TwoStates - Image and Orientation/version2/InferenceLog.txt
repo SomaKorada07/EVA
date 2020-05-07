@@ -1,0 +1,14 @@
+Reached the target B: x: 975.910468500874, y: 394.796566696511
+Total Steps:  750 Episode:  1 Reward:  489.0999999999941 Episode TimeSteps:  750 Sand Penalty:  351.0 NonSand Reward:  480 Distance Reward:  800 Boundary Penalty:  0 Goal Reward:  35 Goal Penalty:  74.90000000000002
+Total Steps:  1500 Episode:  2 Reward:  513.4999999999912 Episode TimeSteps:  750 Sand Penalty:  702.5 NonSand Reward:  950 Distance Reward:  1740 Boundary Penalty:  0 Goal Reward:  35 Goal Penalty:  149.89999999999577
+Reached the target A: x: 223.72113354555626, y: 107.15519757762225
+Total Steps:  1875 Episode:  3 Reward:  322.59999999999974 Episode TimeSteps:  375 Sand Penalty:  877.5 NonSand Reward:  1200 Distance Reward:  2240 Boundary Penalty:  0 Goal Reward:  70 Goal Penalty:  187.29999999999364
+Total Steps:  2625 Episode:  4 Reward:  349.49999999999034 Episode TimeSteps:  750 Sand Penalty:  1233.0 NonSand Reward:  1590 Distance Reward:  3020 Boundary Penalty:  0 Goal Reward:  70 Goal Penalty:  262.29999999999114
+Reached the target B: x: 977.4035882249015, y: 393.3527108003066
+Total Steps:  3375 Episode:  5 Reward:  171.1000000000023 Episode TimeSteps:  750 Sand Penalty:  1592.0 NonSand Reward:  1910 Distance Reward:  3520 Boundary Penalty:  0 Goal Reward:  105 Goal Penalty:  337.2000000000082
+Total Steps:  4125 Episode:  6 Reward:  492.9999999999951 Episode TimeSteps:  750 Sand Penalty:  1944.0 NonSand Reward:  2370 Distance Reward:  4440 Boundary Penalty:  0 Goal Reward:  105 Goal Penalty:  412.2000000000252
+Reached the target A: x: 223.51508167765678, y: 107.05502514005337
+Total Steps:  4774 Episode:  7 Reward:  158.20000000000235 Episode TimeSteps:  649 Sand Penalty:  2256.0 NonSand Reward:  2620 Distance Reward:  4940 Boundary Penalty:  0 Goal Reward:  140 Goal Penalty:  477.00000000003996
+Total Steps:  5524 Episode:  8 Reward:  349.49999999999034 Episode TimeSteps:  750 Sand Penalty:  2611.5 NonSand Reward:  3010 Distance Reward:  5720 Boundary Penalty:  0 Goal Reward:  140 Goal Penalty:  552.000000000057
+Reached the target B: x: 977.144063392385, y: 393.3276094853242
+Total Steps:  6274 Episode:  9 Reward:  150.6000000000023 Episode TimeSteps:  750 Sand Penalty:  2971.0 NonSand Reward:  3320 Distance Reward:  6200 Boundary Penalty:  0 Goal Reward:  175 Goal Penalty:  626.900000000074
