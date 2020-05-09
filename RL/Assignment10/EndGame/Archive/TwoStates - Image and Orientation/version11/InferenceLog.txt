@@ -1,0 +1,60 @@
+TD3_0_3172_144_actor.pth
+
+Total Steps:  250 Episode:  1 Reward:  -151.1999999999993 Episode TimeSteps:  250 Sand Penalty:  126.2 NonSand Reward:  0 Goal Reward:  -25.000000000000085
+Total Steps:  500 Episode:  2 Reward:  -151.1999999999993 Episode TimeSteps:  250 Sand Penalty:  252.4 NonSand Reward:  0 Goal Reward:  -50.00000000000044
+Total Steps:  1500 Episode:  3 Reward:  1005.9000000000168 Episode TimeSteps:  1000 Sand Penalty:  711.6 NonSand Reward:  820 Goal Reward:  1305.1000000000147
+Total Steps:  1979 Episode:  4 Reward:  -63.09999999999947 Episode TimeSteps:  479 Sand Penalty:  946.8000000000001 NonSand Reward:  930 Goal Reward:  1477.2000000000583
+Total Steps:  2138 Episode:  5 Reward:  1.0000000000001634 Episode TimeSteps:  159 Sand Penalty:  1025.0 NonSand Reward:  960 Goal Reward:  1556.4000000000726
+Total Steps:  2802 Episode:  6 Reward:  393.3999999999928 Episode TimeSteps:  664 Sand Penalty:  1335.2 NonSand Reward:  1420 Goal Reward:  2110.0000000001332
+Total Steps:  3476 Episode:  7 Reward:  1111.400000000027 Episode TimeSteps:  674 Sand Penalty:  1636.4 NonSand Reward:  2160 Goal Reward:  3522.6000000001945
+
+
+
+TD3_0_1988_261_actor.pth
+
+
+Total Steps:  577 Episode:  1 Reward:  247.09999999999337 Episode TimeSteps:  577 Sand Penalty:  275.2 NonSand Reward:  290 Goal Reward:  522.2999999999902
+Total Steps:  886 Episode:  2 Reward:  -71.60000000000002 Episode TimeSteps:  309 Sand Penalty:  425.9 NonSand Reward:  390 Goal Reward:  511.39999999998315
+Total Steps:  1374 Episode:  3 Reward:  15.800000000001953 Episode TimeSteps:  488 Sand Penalty:  661.3 NonSand Reward:  590 Goal Reward:  662.599999999972
+Total Steps:  1872 Episode:  4 Reward:  9.80000000000181 Episode TimeSteps:  498 Sand Penalty:  901.7 NonSand Reward:  790 Goal Reward:  812.7999999999607
+
+
+
+TD3_0_1412_247_actor.pth
+
+
+
+Total Steps:  250 Episode:  1 Reward:  -151.1999999999993 Episode TimeSteps:  250 Sand Penalty:  126.2 NonSand Reward:  0 Goal Reward:  -25.000000000000085
+Total Steps:  500 Episode:  2 Reward:  -151.1999999999993 Episode TimeSteps:  250 Sand Penalty:  252.4 NonSand Reward:  0 Goal Reward:  -50.00000000000044
+Reached the target B: x: 988.2893693457578, y: 422.05757626638655
+Total Steps:  1020 Episode:  3 Reward:  52.40000000000255 Episode TimeSteps:  520 Sand Penalty:  503.1 NonSand Reward:  210 Goal Reward:  153.1000000000022
+Total Steps:  1895 Episode:  4 Reward:  88.80000000000257 Episode TimeSteps:  875 Sand Penalty:  926.8 NonSand Reward:  510 Goal Reward:  665.5999999999893
+Total Steps:  2145 Episode:  5 Reward:  -151.1999999999993 Episode TimeSteps:  250 Sand Penalty:  1053.0 NonSand Reward:  510 Goal Reward:  640.5999999999837
+Reached the target A: x: 222.80612831402757, y: 94.02624123895411
+Total Steps:  2435 Episode:  6 Reward:  578.3999999999994 Episode TimeSteps:  290 Sand Penalty:  1180.7 NonSand Reward:  860 Goal Reward:  1346.6999999999853
+Total Steps:  2794 Episode:  7 Reward:  592.5999999999925 Episode TimeSteps:  359 Sand Penalty:  1332.2 NonSand Reward:  1440 Goal Reward:  1710.800000000018
+Total Steps:  3229 Episode:  8 Reward:  -57.19999999999965 Episode TimeSteps:  435 Sand Penalty:  1545.9 NonSand Reward:  1540 Goal Reward:  1867.3000000000575
+Total Steps:  3832 Episode:  9 Reward:  1297.5000000000266 Episode TimeSteps:  603 Sand Penalty:  1808.1000000000001 NonSand Reward:  2350 Goal Reward:  3427.0000000001123
+Reached the target B: x: 981.7897899490475, y: 382.89244917152456
+Total Steps:  4082 Episode:  10 Reward:  -116.09999999999931 Episode TimeSteps:  250 Sand Penalty:  1934.3000000000002 NonSand Reward:  2350 Goal Reward:  3437.100000000135
+Total Steps:  4332 Episode:  11 Reward:  -151.1999999999993 Episode TimeSteps:  250 Sand Penalty:  2060.5 NonSand Reward:  2350 Goal Reward:  3412.1000000001577
+Total Steps:  5003 Episode:  12 Reward:  1420.7000000000353 Episode TimeSteps:  671 Sand Penalty:  2352.7 NonSand Reward:  3240 Goal Reward:  5125.00000000003
+Total Steps:  5253 Episode:  13 Reward:  -151.1999999999993 Episode TimeSteps:  250 Sand Penalty:  2478.8999999999996 NonSand Reward:  3240 Goal Reward:  5099.999999999939
+Reached the target A: x: 215.22091907193905, y: 80.63500768380109
+Total Steps:  5580 Episode:  14 Reward:  597.1999999999982 Episode TimeSteps:  327 Sand Penalty:  2624.0999999999995 NonSand Reward:  3610 Goal Reward:  5842.3999999998205
+
+
+TD3_0_1487_200_actor.pth
+
+
+Total Steps:  250 Episode:  1 Reward:  -151.1999999999993 Episode TimeSteps:  250 Sand Penalty:  126.2 NonSand Reward:  0 Goal Reward:  -25.000000000000085
+Total Steps:  500 Episode:  2 Reward:  -151.1999999999993 Episode TimeSteps:  250 Sand Penalty:  252.4 NonSand Reward:  0 Goal Reward:  -50.00000000000044
+Reached the target B: x: 980.6646278621203, y: 384.2463711395667
+Total Steps:  850 Episode:  3 Reward:  -60.59999999999999 Episode TimeSteps:  350 Sand Penalty:  423.1 NonSand Reward:  110 Goal Reward:  -49.90000000000094
+Total Steps:  1642 Episode:  4 Reward:  302.3999999999929 Episode TimeSteps:  792 Sand Penalty:  801.5 NonSand Reward:  490 Goal Reward:  630.8999999999869
+Total Steps:  2051 Episode:  5 Reward:  429.89999999999395 Episode TimeSteps:  409 Sand Penalty:  990.7 NonSand Reward:  820 Goal Reward:  1250.0000000000077
+Reached the target A: x: 201.3323583142128, y: 124.5450728798829
+Total Steps:  2234 Episode:  6 Reward:  7.1000000000003 Episode TimeSteps:  183 Sand Penalty:  1080.4 NonSand Reward:  860 Goal Reward:  1346.8000000000243
+Total Steps:  2892 Episode:  7 Reward:  448.49999999999295 Episode TimeSteps:  658 Sand Penalty:  1386.1000000000001 NonSand Reward:  1350 Goal Reward:  1941.0000000000841
+Total Steps:  3624 Episode:  8 Reward:  769.0999999999917 Episode TimeSteps:  732 Sand Penalty:  1723.8000000000002 NonSand Reward:  1940 Goal Reward:  3047.8000000001507
+Reached the target B: x: 985.0723770280957, y: 380.0929499962085

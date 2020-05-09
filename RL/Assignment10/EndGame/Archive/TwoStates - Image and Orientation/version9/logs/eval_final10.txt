@@ -1,0 +1,17 @@
+Reached the target B: x: 977.7941989620953, y: 393.6106110440419
+Total Steps:  952 Episode:  1 Reward:  88.69999999999806 Episode TimeSteps:  952 Sand Penalty:  454.0 NonSand Reward:  308 Distance Reward:  555 Boundary Penalty:  0 Goal Reward:  35 Goal Penalty:  95.09999999999887
+Reached the target A: x: 223.27469337372787, y: 109.09126763219234
+Total Steps:  1950 Episode:  2 Reward:  226.6000000000018 Episode TimeSteps:  998 Sand Penalty:  927.5 NonSand Reward:  665 Distance Reward:  1320 Boundary Penalty:  0 Goal Reward:  70 Goal Penalty:  194.79999999999322
+Total Steps:  2950 Episode:  3 Reward:  128.30000000000467 Episode TimeSteps:  1000 Sand Penalty:  1404.0 NonSand Reward:  994 Distance Reward:  2025 Boundary Penalty:  0 Goal Reward:  70 Goal Penalty:  294.79999999999853
+Reached the target B: x: 977.2166153718371, y: 390.5755559732762
+
+
+
+New run with get crop image changes
+
+
+
+Reached the target B: x: 976.1593766567006, y: 393.92481749192103
+Total Steps:  922 Episode:  1 Reward:  246.19999999999013 Episode TimeSteps:  922 Sand Penalty:  434.5 NonSand Reward:  371 Distance Reward:  690 Boundary Penalty:  0 Goal Reward:  35 Goal Penalty:  92.09999999999904
+Reached the target A: x: 223.7764627337363, y: 107.4360646145058
+Total Steps:  1878 Episode:  2 Reward:  453.2999999999866 Episode TimeSteps:  956 Sand Penalty:  880.5 NonSand Reward:  819 Distance Reward:  1650 Boundary Penalty:  0 Goal Reward:  70 Goal Penalty:  187.59999999999363

@@ -1,0 +1,10 @@
+TD3_0_3172_144_actor.pth - goes from target A to B but not on roads. Not better than version 7.
+
+
+TD3_0_1988_261_actor.pth - not working
+
+
+TD3_0_1412_247_actor.pth - second best weights wrt time. going from A to B using a slightly different route but not on roads yet.
+
+
+TD3_0_1487_200_actor.pth - going from A to B using a slightly different route but not on roads yet.

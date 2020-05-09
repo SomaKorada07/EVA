@@ -1,0 +1,7 @@
+Total Steps:  500 Episode:  1 Reward:  -301.2 Episode TimeSteps:  500 Sand Penalty:  250.0 NonSand Reward:  0 Distance Reward:  0 Boundary Penalty:  0 Goal Reward:  0 Goal Penalty:  50.00000000000044
+Reached the target B: x: 992.191069092376, y: 376.2578694007549
+Total Steps:  1500 Episode:  2 Reward:  2694.4000000000683 Episode TimeSteps:  1000 Sand Penalty:  670.5 NonSand Reward:  1590 Distance Reward:  3180 Boundary Penalty:  0 Goal Reward:  35 Goal Penalty:  149.89999999999577
+Reached the target A: x: 196.84283182198297, y: 123.08327245987986
+Total Steps:  1856 Episode:  3 Reward:  -96.69999999999871 Episode TimeSteps:  356 Sand Penalty:  846.5 NonSand Reward:  1630 Distance Reward:  3260 Boundary Penalty:  0 Goal Reward:  70 Goal Penalty:  185.39999999999375
+Total Steps:  2856 Episode:  4 Reward:  938.7999999999777 Episode TimeSteps:  1000 Sand Penalty:  1307.5 NonSand Reward:  2410 Distance Reward:  4700 Boundary Penalty:  0 Goal Reward:  70 Goal Penalty:  285.3999999999964
+Reached the target B: x: 1002.5299278568604, y: 375.5811166623242

@@ -1,0 +1,4 @@
+TD3_0_4130_73_actor.pth - WORKS BEST SO FAR. Mostly on roads or at least tried to get back on to roads. Rotation issue at one point.
+
+
+TD3_0_2495_71_actor.pth - not better than the above one

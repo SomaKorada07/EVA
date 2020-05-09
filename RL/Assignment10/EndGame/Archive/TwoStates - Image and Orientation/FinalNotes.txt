@@ -1,0 +1,31 @@
+version 1 - changed episode timesteps from 500 to 750 - GOT BEST RESULTS SO FAR
+
+
+version 2 - changed eval noise to point to calculated one, removing orientation in image - testing. changed image part completely - 
+
+
+version 3 - crop3_pic = PILImage.fromarray(croppedimage.astype("uint8")*255) - line 182 - remove *255 - trying along with distance
+TD3_0_3179_285_actor.pth - NOT WORKING
+TD3_0_1858_286_actor.pth - WORKING
+TD3_0_1846_153_actor.pth- WORKING
+
+
+version 4 - changed max timesteps back to 750, episodes to 350, crop size to 60 - TESTING GOING ON - NOT BETTER THAN version 2 (crop size = 80, episodes = 500, crop image was different). STARTS GIVING GHUMAR BEFORE 240K ITSELF AND REACHED GOAL VERY FEW TIMES - NOT WORKING
+
+
+version 5 - changed max timesteps back to 750, episodes to 350, crop size to 75, replay buffer = 1000,000 changed to max_size=30000
+
+
+version 6 - random positions to road - not done and add penalty for being on sand for more than episode timesteps/2, changed replybuffer to 50k, ep steps=1000 - working but not perfectly on roads but SLIGHTLY ON ROADS
+
+
+version 7 - crop_size = 75, start_timesteps = 36000, max_timesteps = 108000, max_episodes = 180, max_size=150000, _max_episode_steps = 1000 -  GHUMAR ISSUE FROM 96190 timesteps - WORKS BEST SO FAR
+
+
+version 8 - max_action = 7, start_timesteps = 36000 (same as 8), max_timesteps = 108000 (same as version 8), max_episodes = 150, crop_size = 80, max_size=65000
+
+
+version 9 - same as version 9 + changed rewards slightly (reduced non sand and distance rewards)
+
+
+

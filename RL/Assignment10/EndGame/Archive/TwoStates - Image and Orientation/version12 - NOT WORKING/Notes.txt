@@ -1,0 +1,9 @@
+changed crop image to correct y coordinate.
+changed crop size to 40.
+changed boundary penalties.
+combined rewards to have only sand, non sand, distance and goal.
+
+
+TD3_0_5712_70_actor.pth - ghumar issue
+
+TD3_0_3251_65_actor.pth - ghumar issue
