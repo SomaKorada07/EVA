@@ -4,7 +4,7 @@
 
 To make a car learn to drive on the roads of a map (custom environment) using **TD3** architecture.
 
-###  Video - https://youtu.be/GSFACnFGRfM
+###  Video - https://youtu.be/NN52iN3ZEhU
 
 ## Approach taken
 
