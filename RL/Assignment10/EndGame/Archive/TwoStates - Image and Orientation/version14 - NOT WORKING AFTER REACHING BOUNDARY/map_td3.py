@@ -368,8 +368,8 @@ class Game(Widget):
                 if new_distance < distance:
 
                     # Additional reward for moving closer to target
-                    reward += 10
-                    living_reward += 10
+                    reward += 1
+                    living_reward += 1
 
             # Penalizing if the car is on road continuously for certain timesteps
             if sand_pointer >= _max_episode_steps/2:
@@ -713,16 +713,16 @@ class CarApp(App):
         Clock.schedule_interval(parent.eval_update, 1.0/60.0)
 
         self.painter = MyPaintWidget()
-        clearbtn = Button(text = 'clear')
-        savebtn = Button(text = 'save', pos = (parent.width, 0))
-        loadbtn = Button(text = 'load', pos = (2 * parent.width, 0))
-        clearbtn.bind(on_release = self.clear_canvas)
-        savebtn.bind(on_release = self.save)
-        loadbtn.bind(on_release = self.load)
+        # clearbtn = Button(text = 'clear')
+        # savebtn = Button(text = 'save', pos = (parent.width, 0))
+        # loadbtn = Button(text = 'load', pos = (2 * parent.width, 0))
+        # clearbtn.bind(on_release = self.clear_canvas)
+        # savebtn.bind(on_release = self.save)
+        # loadbtn.bind(on_release = self.load)
         parent.add_widget(self.painter)
-        parent.add_widget(clearbtn)
-        parent.add_widget(savebtn)
-        parent.add_widget(loadbtn)
+        # parent.add_widget(clearbtn)
+        # parent.add_widget(savebtn)
+        # parent.add_widget(loadbtn)
         return parent
 
     def clear_canvas(self, obj):

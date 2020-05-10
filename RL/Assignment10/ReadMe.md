@@ -4,11 +4,11 @@
 
 To make a car learn to drive on the roads of a map (custom environment) using **TD3** architecture.
 
-###  Video - https://youtu.be/NN52iN3ZEhU
+###  Video - https://youtu.be/pigvys7b_Xw
 
 ## Approach taken
 
-### Following were done even before implementing Assignment 10
+### Following were done even before implementing EndGame assignment
 
 1. Understood the TD3 architecture and the way to implement it for the environments - AntBulletEnv-v0, Walker2DBulletEnv-v0 and HalfCheetahBulletEnv-v0.
 
@@ -32,59 +32,46 @@ To make a car learn to drive on the roads of a map (custom environment) using **
 
 5. Understood the "step" function of the environment.
 
-### Steps done for Assignment 10
+### Steps done for EndGame assignment
 
 1. ***Keeping the sensors as-is***, changed the DQN architecture to TD3 architecture (without CNN. Similar to "walker" environment) to make it work.
 2. After Step 1 was completed, implemented TD3 with a ***cropped image*** as input to Actor network. This cropped image **did not have car image** embedded into it. I made this work first. Parameters in this approach were as below:
-   1. Input to Actor - Cropped Image
-   2. State - Cropped image of size 80x80 but reduced to 32x32 for the CNN.
+   1. State - Cropped image of size 80x80 reduced to 32x32 for the CNN.
    3. Replay Buffer
       1. State (cropped image without car)
-      2. Next State (cropped image from sand image with the car's new position based on the action taken)
-      3. Reward for the action taken based on the "Distance"
+      2. Next State (cropped image from sand image from the car's new position based on the action taken)
+      3. Reward for the action taken
       4. Action taken
-      5. Done (defined it to True when the car hit the walls or when it reached target or when the episode was completed)
-3. After Step 2 was completed, improvised the image by ***embedding the car*** into it taking its angle into consideration, but the image of the car was surrounded by a rectangle around it! Still went ahead with the same Replay Buffer and same parameters. Modified parameters were as below:
-   1.  Input to Actor - Cropped Image along with car considering its angle
-   2. State - Cropped image of size 160x160 map along with car considering its angle but reduced to 32x32 for the CNN.
+      5. Done (defined it to True when the car hits the walls or when it reaches both the targets or when the episode is completed)
+3. After Step 2 was completed, improvised the image by ***embedding the car*** into it taking its angle into consideration, but the image of the car was surrounded by a rectangle around it! Continued with the same Replay Buffer and same parameters. Modified parameters were as below:
+   1.  State - Cropped image of size 160x160 along with car placed considering its angle reduced to 32x32 for the CNN.
    3. Replay Buffer
-      1. State (cropped image without car)
-      2. Next State (cropped image from sand image with the car's new position based on the action taken)
-      3. Reward for the action taken based on the "Distance"
+      1. State (cropped image with car)
+      2. Next State (cropped image from sand image from the car's new position based on the action taken)
+      3. Reward for the action taken
       4. Action taken
-      5. Done (defined it to True when the car hit the walls or when it reached target or when the episode was completed)
-4. ***Added* "*Distance*"** parameter as an additional attribute to Actor network. Modified parameters were as below:
-   1. Input to Actor - Distance and Cropped Image along with car considering its angle
-   2. State - Cropped image of size 160x160 map along with car considering its angle but reduced to 32x32 for the CNN.
+      5. Done (defined it to True when the car hits the walls or when it reaches both the targets or when the episode is completed)
+4. ***Added* "*Orientation (-Orientation, Orientation)*"** parameters as additional states and removed car image from the cropped image instead rotating the cropped image based on car's angle. Modified parameters were as below:
+   1. States - Cropped Image rotated in car's angle, -Orientation, Orientation
    3. Replay Buffer
-      1. State (cropped image without car)
-      2. Next State (cropped image from sand image with the car's new position based on the action taken)
-      3. Distance
-      4. Next Distance (based on the car's new position based on the action taken)
+      1. States (cropped image rotated in car's angle, -orientation, orientation)
+      2. Next States (cropped image rotated in car's angle from the car's new position and angle, -orientation, orientation based on the action taken)
       5. Reward for the action taken based on the "Distance"
       6. Action taken
-      7. Done (defined it to True when the car hit the walls or when it reached target or when the episode was completed)
-5. **Removed car image** from the cropped image of sand as I was not satisfied with the way it was done. ***Added "Orientation"*** parameter as an additional attribute to Actor network. Modified parameters are as below:
-   1. Input to Actor - Distance, Orientation and Cropped Image **without** car image embedded
-   2. State - Cropped image of size 160x160 map but reduced to 32x32 for the CNN.
+      7. Done (defined it to True when the car hits the walls or when it reaches both the targets or when the episode is completed)
+5. ***Added "Distance"*** parameter as an additional state but this resulted in rotation issue. I tried to fix the rewards, crop size, max_action but nothing worked for me. Modified parameters are as below:
+   1. States - Cropped Image rotated in car's angle, -Orientation, Orientation, Distance
    3. Replay Buffer
-      1. State (cropped image without car)
-      2. Next State (cropped image from sand image with the car's new position based on the action taken)
-      3. Distance
-      4. Next Distance (based on the car's new position based on the action taken)
-      5. Orientation
-      6. Next Orientation (based on the car's new position based on the action taken)
-      7. Reward for the action taken based on the "Distance"
+      1. States (cropped image rotated in car's angle, -Orientation, Orientation, Distance)
+      2. Next States (cropped image rotated in car's angle, -Orientation, Orientation, Distance based on the action taken)
+      3. Reward for the action taken based on the "Distance"
       8. Action taken
       9. Done (defined it to True when the car hit the walls or when it reached target or when the episode was completed)
-6. Improvised the ***Rewards strategy***. As I observed that when car gets stuck at the walls, it was not able to come out of that state, I am using high negative rewards in this case. As car mostly goes on sand and less on roads, I have made positive reward for going on road to be higher than the negative reward for going on sand. Also, ending the episode and giving penalty when the car stays on sand for certain number of timesteps continuously.
-7. Also, to avoid the car from going to boundary, I am resetting the car position in such a case and giving high negative rewards (same as boundary case rewards). I did not implement any padding to sand image.
-8. Every time Done becomes true, I am ***resetting the car's position randomly***.
-9. Saving the models when it is Done (=True) and when Episode reward is positive.
-10. Implemented the inferencing using best positive episode reward models.
-
-### Things tried
-
-1. Tried using 3 states - Cropped Image rotated with car's angle, [+Orientation, -Orientation] and Distance. But using all the 3 states only resulted in my car going all over the map. It was not traversing between the targets too.
-2. Tried using only 2 states - Cropped Image rotated with car's angle and [+Orientation, -Orientation]. This resulted in car learning to traverse between the 2 targets. It could not learn to stay on road.
-3. Tuned Learning Rate hyperparameter to get out of rotation issue.
+6. Continued to consider only 3 states for my implementation - Cropped Image rotated in car's angle, -Orientation, Orientation.
+7. Improvised the ***Rewards strategy***.
+   1. As I observed that when car gets stuck at the walls, it was not able to come out of that state. To overcome this scenario, I am checking for the episode timesteps and if the episode goes to "Done" within 5 timesteps, I am giving high penalty.
+   2. As car mostly goes on sand and less on roads, I am maintaining a counter on how many timesteps the car has gone on sand and penalizing if the car is continuously on sand or is on sand within the initial timesteps of an episode. Also, ending the episode when the car stays on sand for certain number of timesteps continuously.
+8. Tuned hyperparameters like Learning Rate, max_action, crop size, CNN embedding dimension.
+9. Every time Done becomes true, I am ***resetting the car's position randomly***.
+10. Saving the models when it is Done (=True) and when Episode reward is positive.
+11. Implemented the inferencing using best positive episode reward models.

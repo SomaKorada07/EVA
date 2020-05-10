@@ -51,7 +51,7 @@ class Actor(nn.Module):
         ])
 
         self.linear = torch.nn.ModuleList([
-            torch.nn.Linear(latent_dim + 2, 30),
+            torch.nn.Linear(latent_dim + 2, 30), # Adding the additional +orientation and -orientation
             torch.nn.ReLU(),
             torch.nn.Linear(30, action_dim),
             torch.nn.Tanh(),
@@ -64,7 +64,7 @@ class Actor(nn.Module):
         for layer in self.linear:
             counter += 1
             if counter == 1:
-                x = torch.cat([x, orientation], 1)
+                x = torch.cat([x, orientation], 1) # Concatenating orientation with CNN embedding
                 x = layer(x)
             else:
                 x = layer(x)
@@ -112,13 +112,13 @@ class Critic(nn.Module):
         ])
 
         self.linear_1 = torch.nn.ModuleList([
-            torch.nn.Linear(latent_dim + 2 + action_dim, 30),
+            torch.nn.Linear(latent_dim + 2 + action_dim, 30), # Adding the additional +orientation and -orientation
             torch.nn.ReLU(),
             torch.nn.Linear(30, 1),
         ])
 
         self.linear_2 = torch.nn.ModuleList([
-            torch.nn.Linear(latent_dim + 2 + action_dim, 30),
+            torch.nn.Linear(latent_dim + 2 + action_dim, 30), # Adding the additional +orientation and -orientation
             torch.nn.ReLU(),
             torch.nn.Linear(30, 1),
         ])
@@ -131,8 +131,8 @@ class Critic(nn.Module):
         for layer in self.linear_1:
             counter += 1
             if counter == 1:
-                x1 = torch.cat([x1, orientation], 1)
-                x1 = torch.cat([x1, u], 1)
+                x1 = torch.cat([x1, orientation], 1) # Concatenating orientation with CNN embedding
+                x1 = torch.cat([x1, u], 1) 			 # Concatenating action
                 x1 = layer(x1)
             else:
                 x1 = layer(x1)
@@ -144,8 +144,8 @@ class Critic(nn.Module):
         for layer in self.linear_2:
             counter += 1
             if counter == 1:
-                x2 = torch.cat([x2, orientation], 1)
-                x2 = torch.cat([x2, u], 1)
+                x2 = torch.cat([x2, orientation], 1) # Concatenating orientation with CNN embedding
+                x2 = torch.cat([x2, u], 1)			 # Concatenating action
                 x2 = layer(x2)
             else:
                 x2 = layer(x2)
@@ -160,8 +160,8 @@ class Critic(nn.Module):
         for layer in self.linear_1:
             counter += 1
             if counter == 1:
-                x = torch.cat([x, orientation], 1)
-                x = torch.cat([x, u], 1)
+                x = torch.cat([x, orientation], 1)  # Concatenating orientation with CNN embedding
+                x = torch.cat([x, u], 1)			# Concatenating action
                 x = layer(x)
             else:
                 x = layer(x)
@@ -175,13 +175,15 @@ class TD3(object):
   def __init__(self, state_dim, action_dim, orientation, max_action):
 
         self.max_action = max_action
+
+        # Tuned the Learning Rate based on the my model
         learning_rate = 1e-4
 
         self.actor = Actor(state_dim, action_dim, orientation, max_action).to(device)
         self.actor_target = Actor(state_dim, action_dim, orientation, max_action).to(device)
         self.actor_target.load_state_dict(self.actor.state_dict())
 
-        # Setting a learning rate which suits my CNN
+        # Setting the tuned learning rate
         self.actor_optimizer = torch.optim.Adam(self.actor.parameters(), lr=learning_rate)
         self.actor_loss = []
 
@@ -189,7 +191,7 @@ class TD3(object):
         self.critic_target = Critic(state_dim, action_dim, orientation).to(device)
         self.critic_target.load_state_dict(self.critic.state_dict())
 
-        # Setting a learning rate which suits my CNN
+        # Setting the tuned learning rate
         self.critic_optimizer = torch.optim.Adam(self.critic.parameters(), lr=learning_rate)
         self.critic_loss = []
 

@@ -83,7 +83,7 @@ save_models = True # Boolean checker whether or not to save the pre-trained mode
 torch.manual_seed(seed)
 np.random.seed(seed)
 action_dim = 1
-state_dim = 4
+state_dim = 3
 max_action = 7
 
 sand_image = np.asarray(PILImage.open("./images/MASK1.png").convert('L'))/255
@@ -104,6 +104,7 @@ goal_reward = 0
 goal_penalty = 0
 nonsand_reward = 0
 sand_episode_penalty = 0
+living_reward = 0
 sand_pointer = 0
 
 # Getting our AI, which we call "brain", and that contains our neural network that represents our Q-function
@@ -131,6 +132,7 @@ def init():
     global goal_y
     global first_update
     global orientation
+    global new_action
     sand = np.zeros((longueur,largeur))
     img = PILImage.open("./images/mask.png").convert('L')
     sand = np.asarray(img)/255
@@ -139,38 +141,43 @@ def init():
     first_update = False
     global swap
     swap = 0
+    reward = 0
     orientation = [orientation, -orientation]
     new_orientation = np.array(orientation)
+    new_action = np.zeros((1))
 
 # Function to return cropped image based on sand image and car position as input
 def getCroppedImage(sand_image, car_x, car_y, angle, crop_size = 40, croppedimage_size = 32): 
     pad = crop_size*2
-    #pad for safety
-    crop1 = np.pad(sand_image, pad_width=pad, mode='constant', constant_values = 1)
+    # Padding to handle boundary scenarios
+    crop1 = np.pad(sand_image, pad_width = pad, mode = 'constant', constant_values = 1)
     #imageio.imwrite('./images/crop1padded.png', crop1)
+    
     centerx = car_x + pad
+    # Handling the different coordinate system
     centery = largeur - car_y + pad
 
-    #first small crop
-    startx, starty = int(centerx-(crop_size)), int(centery-(crop_size))
-    crop1 = crop1[starty:starty+crop_size*2, startx:startx+crop_size*2]
+    # Taking a bigger crop first
+    startx, starty = int(centerx - (crop_size)), int(centery - (crop_size))
+    crop1 = crop1[starty : starty + crop_size * 2, startx : startx + crop_size * 2]
     #imageio.imwrite('./images/firstcrop.png', crop1)
 
-    #rotate
-    crop1 = scipy.ndimage.rotate(crop1, -angle, mode='constant', cval=1.0, reshape=False, prefilter=False)
+    # Rotating the bigger crop based on car's angle
+    crop1 = scipy.ndimage.rotate(crop1, -angle, mode = 'constant', cval = 1.0, reshape = False, prefilter = False)
     #imageio.imwrite('./images/rotatedcrop.png', crop1)
 
-    #again final crop
-    startx, starty = int(crop1.shape[0]//2-crop_size//2), int(crop1.shape[0]//2-crop_size//2)
+    # Taking final crop from rotated bigger crop
+    startx, starty = int(crop1.shape[0] // 2 - crop_size // 2), int(crop1.shape[0] // 2 - crop_size // 2)
 
-    im = crop1[starty:starty+crop_size, startx:startx+crop_size] #.reshape(crop_size, crop_size, 1)
+    im = crop1[starty : starty + crop_size, startx : startx + crop_size]
     #imageio.imwrite('./images/finalcrop.png', im)
 
-    im = torch.from_numpy(np.array(im)).float()#.div(255)
+    im = torch.from_numpy(np.array(im)).float()
 
     im = im.unsqueeze(0).unsqueeze(0)
 
-    im = F.interpolate(im,size=(croppedimage_size,croppedimage_size))
+    # Resizing to smaller dimension
+    im = F.interpolate(im, size = (croppedimage_size, croppedimage_size))
 
     return im
 
@@ -199,7 +206,7 @@ class Game(Widget):
 
     start_timesteps = 36000 	# Number of iterations/timesteps before which the model randomly chooses an action, and after which it starts to use the policy network
     max_timesteps = 108000 		# Total number of iterations/timesteps
-    max_episodes = 180  		# max num of episodes
+    max_episodes = 165  		# max num of episodes
     eval_episode = 1
     
     expl_noise = 0.1 			# Exploration noise - STD value of exploration Gaussian noise
@@ -272,6 +279,9 @@ class Game(Widget):
         global nonsand_reward
         global sand_episode_penalty
         global sand_pointer
+        global living_reward
+
+        global new_action
 
         longueur = self.width
         largeur = self.height
@@ -282,9 +292,9 @@ class Game(Widget):
         if self.total_timesteps < self.max_timesteps:
             if self.done:
                 if self.total_timesteps != 0:
-                    with open("./logs/eval_final8.txt", 'a') as f:
+                    with open("./InferenceLog.txt", 'a') as f:
                         sys.stdout = f
-                        print("Total Steps: ", self.total_timesteps, "Episode: ",episode_num, "Reward: ", episode_reward,"Episode TimeSteps: ", self.episode_timesteps, "Sand Penalty: ", sand_penalty, "NonSand Reward: ", nonsand_reward, "Distance Reward: ", distance_reward, "Boundary Penalty: ", boundary_penalty, "Goal Reward: ", goal_reward, "Goal Penalty: ", goal_penalty)
+                        print("Total Steps: ", self.total_timesteps, "Episode: ",episode_num, "Reward: ", episode_reward,"Episode TimeSteps: ", self.episode_timesteps, "Sand Penalty: ", sand_penalty, "Living Reward: ", living_reward, "Goal Reward: ", goal_reward)
 
                 # Get cropped image by passing sand and car's postion as input
                 state = getCroppedImage(sand_image, self.car.x, self.car.y, self.car.angle, crop_size = crop_size)
@@ -324,57 +334,77 @@ class Game(Widget):
             new_orientation = np.array(new_orientation)
 
             if sand[int(self.car.x),int(self.car.y)] > 0:
+                # Counter variable to track for how many continuous episodes car was on sand 
                 sand_pointer += 1
+
                 self.car.velocity = Vector(0.5, 0).rotate(self.car.angle)
                 #print(1, goal_x, goal_y, new_distance, int(self.car.x),int(self.car.y), im.read_pixel(int(self.car.x),int(self.car.y)))
+
+                # Penalizing for being on sand
                 reward = -0.5
                 sand_penalty += 0.5
                 self.done = False
             else: # otherwise
-                self.car.velocity = Vector(2, 0).rotate(self.car.angle)
+                # Resetting the sand counter if car comes on road
                 sand_pointer = 0
+
+                self.car.velocity = Vector(2, 0).rotate(self.car.angle)
+
+                # Reward for being on road
                 reward = 10
-                nonsand_reward += 10
+                living_reward += 10
                 self.done = False
                 #print(0, goal_x, goal_y, new_distance, int(self.car.x),int(self.car.y), im.read_pixel(int(self.car.x),int(self.car.y)))
                 if new_distance < distance:
-                    reward = 20
-                    distance_reward += 20
 
+                    # Additional reward for moving closer to target
+                    reward += 10
+                    living_reward += 10
+
+            # Penalizing if the car is on road continuously for certain timesteps
             if sand_pointer >= _max_episode_steps/2:
                 reward -= 1
-                sand_episode_penalty += 1
+                sand_penalty += 1
                 self.done = True
 
+            # Penalizing if the car is on road for the initial steps in an episode
             if self.episode_timesteps < 25 and sand_pointer == 1:
                 reward -= 0.2
+                sand_penalty += 0.2
 
+            # Penalizing for rotation issue
+            if float(new_action.tolist()[0] - action.tolist()[0]) < 0.1:
+                reward -= 0.2
+                living_reward -= 0.2
+
+            # Penalizing for the boundary scenarios
             if self.car.x < 20:
                 self.car.x = 20
                 reward -= 10
-                boundary_penalty += 10
+                sand_penalty += 10
                 self.done = True
             if self.car.x > self.width - 20:
                 self.car.x = self.width - 20
                 reward -= 10
-                boundary_penalty += 10
+                sand_penalty += 10
                 self.done = True
             if self.car.y < 10:
                 self.car.y = 10
                 reward -= 10
-                boundary_penalty += 10
+                sand_penalty += 10
                 self.done = True
             if self.car.y > self.height - 10:
                 self.car.y = self.height - 10
                 reward -= 10
-                boundary_penalty += 10
+                sand_penalty += 10
                 self.done = True
 
             if new_distance < 25:
+                # Rewarding if the car is very close to target
                 reward += 35
                 goal_reward += 35
                 if swap == 1:
-                    with open("./logs/eval_final8.txt", 'a') as f:
+                    with open("./InferenceLog.txt", 'a') as f:
                         sys.stdout = f
                         print("Reached the target A: x: %s, y: %s"%(self.car.x, self.car.y))
                     goal_x =  1000
@@ -382,7 +412,7 @@ class Game(Widget):
                     swap = 0
                     self.done = True
                 else:
-                    with open("./logs/eval_final8.txt", 'a') as f:
+                    with open("./InferenceLog.txt", 'a') as f:
                         sys.stdout = f
                         print("Reached the target B: x: %s, y: %s"%(self.car.x, self.car.y))
                     goal_x = 200
@@ -390,8 +420,14 @@ class Game(Widget):
                     swap = 1
                     self.done = False
             else:
+                # Slightly penalizing if the car is moving away from target
                 reward -= 0.1
-                goal_penalty += 0.1
+                goal_reward -= 0.1
+
+            # Penalizing heavily the boundary stuck conditions
+            if self.done == True and self.episode_timesteps < 5:
+                reward -= 1000
+                sand_penalty += 1000
 
             scores.append(brain.score())
 
@@ -406,7 +442,7 @@ class Game(Widget):
             # We store the new transition into the Experience Replay memory (ReplayBuffer)
             replay_buffer.add(state, next_state, orientation, new_orientation, action, reward, done_bool) #distance, new_distance, 
 
-            # We update the state, the episode timestep, the total timesteps, and the timesteps since the evaluation of the policy
+            # We update the state, orientation, distance, the episode timestep, the total timesteps, and the timesteps since the evaluation of the policy
             state = next_state
             orientation = new_orientation
             distance = new_distance
@@ -441,6 +477,9 @@ class Game(Widget):
         global nonsand_reward
         global sand_episode_penalty
         global sand_pointer
+        global living_reward
+
+        global new_action
 
         longueur = self.width
         largeur = self.height
@@ -452,9 +491,9 @@ class Game(Widget):
             if self.done:
                 self.done_counter += 1
                 if self.total_timesteps != 0:
-                    with open("./logs/final8.txt", 'a') as f:
+                    with open("./TrainingLog.txt", 'a') as f:
                         sys.stdout = f
-                        print("Total Steps: ", self.total_timesteps, "Episode: ",episode_num, "Reward: ", episode_reward,"Episode TimeSteps: ", self.episode_timesteps, "Sand Episode Penalty: ", sand_episode_penalty, "Sand Penalty: ", sand_penalty, "NonSand Reward: ", nonsand_reward, "Distance Reward: ", distance_reward, "Boundary Penalty: ", boundary_penalty, "Goal Reward: ", goal_reward, "Goal Penalty: ", goal_penalty)
+                        print("Total Steps: ", self.total_timesteps, "Episode: ",episode_num, "Reward: ", episode_reward,"Episode TimeSteps: ", self.episode_timesteps, "Sand Penalty: ", sand_penalty, "Living Reward: ", living_reward, "Goal Reward: ", goal_reward)
 
                 if self.total_timesteps > self.start_timesteps/3:
                     brain.train(replay_buffer, self.episode_timesteps)
@@ -504,57 +543,77 @@ class Game(Widget):
             new_orientation = np.array(new_orientation)
 
             if sand[int(self.car.x),int(self.car.y)] > 0:
+                # Counter variable to track for how many continuous episodes car was on sand 
                 sand_pointer += 1
+
                 self.car.velocity = Vector(0.5, 0).rotate(self.car.angle)
                 #print(1, goal_x, goal_y, new_distance, int(self.car.x),int(self.car.y), im.read_pixel(int(self.car.x),int(self.car.y)))
+
+                # Penalizing for being on sand
                 reward = -0.5
                 sand_penalty += 0.5
                 self.done = False
             else: # otherwise
-                self.car.velocity = Vector(2, 0).rotate(self.car.angle)
+                # Resetting the sand counter if car comes on road
                 sand_pointer = 0
+
+                self.car.velocity = Vector(2, 0).rotate(self.car.angle)
+
+                # Reward for being on road
                 reward = 10
-                nonsand_reward += 10
+                living_reward += 10
                 self.done = False
                 #print(0, goal_x, goal_y, new_distance, int(self.car.x),int(self.car.y), im.read_pixel(int(self.car.x),int(self.car.y)))
                 if new_distance < distance:
-                    reward = 20
-                    distance_reward += 20
 
+                    # Additional reward for moving closer to target
+                    reward += 10
+                    living_reward += 10
+
+            # Penalizing if the car is on road continuously for certain timesteps
             if sand_pointer >= _max_episode_steps/2:
                 reward -= 1
-                sand_episode_penalty += 1
+                sand_penalty += 1
                 self.done = True
 
+            # Penalizing if the car is on road for the initial steps in an episode
             if self.episode_timesteps < 25 and sand_pointer == 1:
                 reward -= 0.2
+                sand_penalty += 0.2
 
+            # Penalizing for rotation issue
+            if float(new_action.tolist()[0] - action.tolist()[0]) < 0.1:
+                reward -= 0.2
+                living_reward -= 0.2
+
+            # Penalizing for the boundary scenarios
             if self.car.x < 20:
                 self.car.x = 20
                 reward -= 10
-                boundary_penalty += 10
+                sand_penalty += 10
                 self.done = True
             if self.car.x > self.width - 20:
                 self.car.x = self.width - 20
                 reward -= 10
-                boundary_penalty += 10
+                sand_penalty += 10
                 self.done = True
             if self.car.y < 10:
                 self.car.y = 10
                 reward -= 10
-                boundary_penalty += 10
+                sand_penalty += 10
                 self.done = True
             if self.car.y > self.height - 10:
                 self.car.y = self.height - 10
                 reward -= 10
-                boundary_penalty += 10
+                sand_penalty += 10
                 self.done = True
 
             if new_distance < 25:
+                # Rewarding if the car is very close to target
                 reward += 35
                 goal_reward += 35
                 if swap == 1:
-                    with open("./logs/final8.txt", 'a') as f:
+                    with open("./TrainingLog.txt", 'a') as f:
                         sys.stdout = f
                         print("Reached the target A: x: %s, y: %s"%(self.car.x, self.car.y))
                     goal_x =  1000
@@ -562,7 +621,7 @@ class Game(Widget):
                     swap = 0
                     self.done = True
                 else:
-                    with open("./logs/final8.txt", 'a') as f:
+                    with open(".TrainingLog.txt", 'a') as f:
                         sys.stdout = f
                         print("Reached the target B: x: %s, y: %s"%(self.car.x, self.car.y))
                     goal_x = 200
@@ -570,8 +629,14 @@ class Game(Widget):
                     swap = 1
                     self.done = False
             else:
+                # Slightly penalizing if the car is moving away from target
                 reward -= 0.1
-                goal_penalty += 0.1
+                goal_reward -= 0.1
+
+            # Penalizing heavily the boundary stuck conditions
+            if self.done == True and self.episode_timesteps < 5:
+                reward -= 1000
+                sand_penalty += 1000
 
             scores.append(brain.score())
 
@@ -594,6 +659,7 @@ class Game(Widget):
             state = next_state
             orientation = new_orientation
             distance = new_distance
+            new_action = action
             self.episode_timesteps += 1
             self.total_timesteps += 1
 
@@ -627,7 +693,6 @@ class MyPaintWidget(Widget):
             touch.ud['line'].width = int(20 * density + 1)
             sand[int(touch.x) - 10 : int(touch.x) + 10, int(touch.y) - 10 : int(touch.y) + 10] = 1
 
-            
             last_x = x
             last_y = y
 
