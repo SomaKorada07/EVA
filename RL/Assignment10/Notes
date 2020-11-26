@@ -1,0 +1,109 @@
+conda create -n td3
+conda activate td3
+conda install pytorch torchvision cuda100 -c pytorch
+conda install swig
+pip install gym[Box2D]
+pip install visdom
+conda install matplotlib
+
+
+Assignment 7 environment
+conda create -n rl python=3.7 anaconda
+conda activate rl
+conda install -c pytorch pytorch-cpu
+conda install -c conda-forge kivy
+
+
+https://arxiv.org/pdf/1610.01283.pdf
+
+Hopper: The hopper task is to make a 2D planar hopper with three joints and 4 body parts hop
+forward as fast as possible (Erez et al., 2011). This problem has a 12 dimensional state space and a 3
+dimensional action space that corresponds to torques at the joints. We construct the source domain
+by considering a distribution over 4 parameters: torso mass, ground friction, armature (inertia), and
+damping of foot.
+Half Cheetah: The half-cheetah task (Wawrzynski, 2009) requires us to make a 2D cheetah with
+two legs run forward as fast as possible. The simulated robot has 8 body links with an 18 dimensional
+state space and a 6 dimensional action space that corresponds to joint torques. Again, we construct
+the source domain using a distribution over the following parameters: torso and head mass, ground
+friction, damping, and armature (inertia) of foot joints.
+
+
+
+https://arxiv.org/pdf/1703.02702.pdf
+
+HalfCheetah: The half-cheetah is a planar biped robot with 8 rigid links, including two legs and a torso, along
+with 6 actuated joints. The 17D state space includes joint angles and joint velocities. The adversary applies a 6D action with 2D forces on the torso and both feet in order to destabilize it.
+Swimmer: The swimmer is a planar robot with 3 links and 2 actuated joints in a viscous container, with the goal of
+moving forward. The 8D state space includes joint angles and joint velocities. The adversary applies a 3D force to
+the center of the swimmer.
+Hopper: The hopper is a planar monopod robot with 4 rigid links, corresponding to the torso, upper leg, lower leg,
+and foot, along with 3 actuated joints. The 11D state space includes joint angles and joint velocities. The adversary
+applies a 2D force on the foot.
+Walker2D: The walker is a planar biped robot consisting of 7 links, corresponding to two legs and a torso, along with
+6 actuated joints. The 17D state space includes joint angles and joint velocities. The adversary applies a 4D action with
+2D forces on both the feet.
+
+
+https://github.com/openai/gym/wiki/BipedalWalker-v2
+
+Get a 2D biped walker to walk through rough terrain.
+
+Environment
+Observation
+Type: Box(24)
+
+Num	Observation	Min	Max	Mean
+0	hull_angle	0	2*pi	0.5
+1	hull_angularVelocity	-inf	+inf	-
+2	vel_x	-1	+1	-
+3	vel_y	-1	+1	-
+4	hip_joint_1_angle	-inf	+inf	-
+5	hip_joint_1_speed	-inf	+inf	-
+6	knee_joint_1_angle	-inf	+inf	-
+7	knee_joint_1_speed	-inf	+inf	-
+8	leg_1_ground_contact_flag	0	1	-
+9	hip_joint_2_angle	-inf	+inf	-
+10	hip_joint_2_speed	-inf	+inf	-
+11	knee_joint_2_angle	-inf	+inf	-
+12	knee_joint_2_speed	-inf	+inf	-
+13	leg_2_ground_contact_flag	0	1	-
+14-23	10 lidar readings	-inf	+inf	-
+Actions
+Type: Box(4) - Torque control(default) / Velocity control - Change inside /envs/box2d/bipedal_walker.py line 363
+
+Num	Name	Min	Max
+0	Hip_1 (Torque / Velocity)	-1	+1
+1	Knee_1 (Torque / Velocity)	-1	+1
+2	Hip_2 (Torque / Velocity)	-1	+1
+3	Knee_2 (Torque / Velocity)	-1	+1
+
+
+
+https://arxiv.org/pdf/1707.02286.pdf
+
+
+
+Walker2d-v1 and Walker 2d-v2
+Make a two-dimensional bipedal robot walk forward as fast as possible.
+Walker2d-v1 is an unsolved environment, which means it does not have a specified reward threshold at which it's considered solved.
+The robot model is based on work by Erez, Tassa, and Todorov [Erez11].
+
+
+
+https://arxiv.org/pdf/1509.02971.pdf
+
+task name dim(s) dim(a) dim(o)
+walker2d  18 	   6      41
+Table 2: Dimensionality of the MuJoCo tasks: the dimensionality of the underlying physics model
+dim(s), number of action dimensions dim(a) and observation dimensions dim(o).
+
+walker2d -  Agent should move forward as quickly as possible with a bipedal walker
+constrained to the plane without falling down or pitching the torso too
+far forward or backward.
+
+
+
+
+
+
+gym_locomotion_envs:Walker2DBulletEnv
